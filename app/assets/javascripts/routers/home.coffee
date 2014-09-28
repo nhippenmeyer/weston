@@ -3,5 +3,12 @@ class Weston.Routers.Home extends Backbone.Router
     '': 'home'
 
   home: ->
-    view = new Weston.Views.Home
-    $('body').html(view.render().el)
+    @view = new Weston.Views.Home
+    $('#page-content').html(@view.render().el)
+    @onScroll()
+
+  onScroll: =>
+    if $('body').scrollTop() < @view.$('#page-2').offset().top
+      $('header .menu').addClass('dark')
+    else
+      $('header .menu').removeClass('dark')

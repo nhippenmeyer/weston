@@ -5,13 +5,16 @@ class Weston.Routers.Categories extends Backbone.Router
     'branding'    : 'branding'
 
   website: ->
-    view = new Weston.Views.CategoriesWebsite
-    $('body').html(view.render().el)
+    @view = new Weston.Views.CategoriesWebsite
+    @showView()
 
   architecture: ->
-    view = new Weston.Views.CategoriesArchitecture
-    $('body').html(view.render().el)
+    @view = new Weston.Views.CategoriesArchitecture
+    @showView()
 
   branding: ->
-    view = new Weston.Views.CategoriesBranding
-    $('body').html(view.render().el)
+    @view = new Weston.Views.CategoriesBranding
+    @showView()
+
+  showView: ->
+    $('#page-content').html(@view.render().el)

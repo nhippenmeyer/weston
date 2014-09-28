@@ -19,6 +19,50 @@ a {
   }
 }
 
+li {
+  list-style: none;
+}
+
+#page-layout, #page-content {
+  height: 100%;
+}
+
+#nav-menu {
+  width: 300px;
+  height: 100%;
+  background: #333;
+  transform: translate3d(-300px,0,0);
+  transition: all .5s;
+  z-index: 1000;
+  position: fixed;
+  &.active {
+    transform: translate3d(0,0,0);
+  }
+  .hide-menu {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 10px;
+    float: right;
+    font-weight: 100;
+    color: #aaa;
+  }
+}
+
+header {
+  position: fixed;
+  color: black;
+  z-index: 999;
+  .menu {
+    width: 30px;
+    height: 17px;
+    background-image: image-url('menu-white.svg');
+    margin: 10px;
+    &.dark {
+      background-image: image-url('menu.svg');
+    }
+  }
+}
+
 .content {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
