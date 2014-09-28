@@ -44,3 +44,5 @@ end
 group :assets do
   gem 'eco'
 end
+
+gem 'rails_12factor', group: :production
