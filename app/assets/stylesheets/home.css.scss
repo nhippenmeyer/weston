@@ -5,7 +5,7 @@
     vertical-align: middle;
   }
   #logo {
-    background-image: url('logo-main.svg');
+    background-image: image-url('logo-main.svg');
     width: 250px;
     height: 193px;
     margin: auto;
@@ -86,9 +86,9 @@
         rgba(0, 0, 20, 0.5),
         rgba(0, 0, 20, 0.5)
       ),
-      url('website.jpg');
+      image-url('website.jpg');
     .icon {
-      background-image: url('website-appdesign.svg');
+      background-image: image-url('website-appdesign.svg');
       width: 60px;
       height: 101px;
       left: calc(50% - 30px);
@@ -101,9 +101,9 @@
         rgba(0, 0, 20, 0.5),
         rgba(0, 0, 20, 0.5)
       ),
-      url('architecture.jpg');
+      image-url('architecture.jpg');
     .icon {
-      background-image: url('architecture-interiordesign.svg');
+      background-image: image-url('architecture-interiordesign.svg');
       width: 95px;
       height: 70px;
       left: calc(50% - 47.5px);
@@ -116,9 +116,9 @@
         rgba(0, 0, 20, 0.5),
         rgba(0, 0, 20, 0.5)
       ),
-      url('branding.jpg');
+      image-url('branding.jpg');
     .icon {
-      background-image: url('branding-graphicdesign.svg');
+      background-image: image-url('branding-graphicdesign.svg');
       width: 100px;
       height: 65px;
       left: calc(50% - 50px);
