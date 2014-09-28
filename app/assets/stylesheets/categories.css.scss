@@ -1,0 +1,76 @@
+.category-page {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100%;
+  .header {
+    padding-top: 20px;
+    .category {
+      margin: 0 50px;
+      margin-bottom: 20px;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding-bottom: 10px;
+      line-height: 20px;
+      &.active {
+        border-bottom: 5px solid white;
+      }
+    }
+  }
+  .icon {
+    margin: auto;
+    margin-top: 100px;
+  }
+  h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  p {
+    margin: 0 25%;
+    line-height: 24px;
+  }
+}
+
+#website-category {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 20, 0.5),
+      rgba(0, 0, 20, 0.5)
+    ),
+    url('website.jpg');
+  .icon {
+    background-image: url('website-appdesign.svg');
+    width: 60px;
+    height: 101px;
+  }
+}
+
+#architecture-category {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 20, 0.5),
+      rgba(0, 0, 20, 0.5)
+    ),
+    url('architecture.jpg');
+  .icon {
+    background-image: url('architecture-interiordesign.svg');
+    width: 95px;
+    height: 70px;
+  }
+}
+
+#branding-category {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 20, 0.5),
+      rgba(0, 0, 20, 0.5)
+    ),
+    url('branding.jpg');
+  .icon {
+    background-image: url('branding-graphicdesign.svg');
+    width: 100px;
+    height: 65px;
+  }
+}

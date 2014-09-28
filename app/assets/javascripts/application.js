@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require underscore
+//= require backbone
+//= require weston
+//= require_tree ../templates
+//= require views/category
+//= require_tree ./views
+//= require_tree ./routers
 //= require_tree .

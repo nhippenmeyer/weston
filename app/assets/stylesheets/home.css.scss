@@ -1,0 +1,128 @@
+#page-1 {
+  display: table;
+  #logo-container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #logo {
+    background-image: url('logo-main.svg');
+    width: 250px;
+    height: 193px;
+    margin: auto;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #999;
+  }
+}
+
+#page-2 {
+  .tile {
+    width: 33.33%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    height: 100%;
+    transition: width 1s;
+    overflow: hidden;
+    &:hover {
+      h1 {
+        color: #fff;
+      }
+      .overlay {
+        opacity: 0.2;
+      }
+      .icon {
+        opacity: 1;
+      }
+    }
+    &.active {
+      width: 100%;
+      .overlay {
+        opacity: 0;
+      }
+      .icon {
+        opacity: 0;
+      }
+      h1 {
+        opacity: 0;
+      }
+    }
+    &.inactive {
+      width: 0%;
+    }
+  }
+  .overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: black;
+    opacity: .7;
+    transition: .5s;
+  }
+  .container {
+    display: table;
+  }
+  .icon {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+  }
+  h1 {
+    font-size: 26px;
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    min-width: 300px;
+    color: #aaa;
+    opacity: 1;
+    transition: all .5s;
+  }
+  .website {
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 20, 0.5),
+        rgba(0, 0, 20, 0.5)
+      ),
+      url('website.jpg');
+    .icon {
+      background-image: url('website-appdesign.svg');
+      width: 60px;
+      height: 101px;
+      left: calc(50% - 30px);
+      top: calc(25% - 50.5px);
+    }
+  }
+  .architecture {
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 20, 0.5),
+        rgba(0, 0, 20, 0.5)
+      ),
+      url('architecture.jpg');
+    .icon {
+      background-image: url('architecture-interiordesign.svg');
+      width: 95px;
+      height: 70px;
+      left: calc(50% - 47.5px);
+      top: calc(25% - 35px);
+    }
+  }
+  .branding {
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 20, 0.5),
+        rgba(0, 0, 20, 0.5)
+      ),
+      url('branding.jpg');
+    .icon {
+      background-image: url('branding-graphicdesign.svg');
+      width: 100px;
+      height: 65px;
+      left: calc(50% - 50px);
+      top: calc(25% - 32.5px);
+    }
+  }
+}
