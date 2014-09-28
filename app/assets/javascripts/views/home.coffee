@@ -15,7 +15,7 @@ class Weston.Views.Home extends Backbone.View
     $el.addClass('active')
     $('html, body').animate
       scrollTop: $el.offset().top
-    , 500
+    , 1500
     $el[0].addEventListener 'webkitTransitionEnd', @showTile, false
     $el[0].addEventListener 'transitionend', @showTile, false
     $el[0].addEventListener 'msTransitionEnd', @showTile, false
