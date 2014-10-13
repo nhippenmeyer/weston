@@ -4,14 +4,19 @@
       <div id='logo'></div>
       <h1>Weston Baker Design</h1>
     </div>
+    <div class='arrow-wrap'>
+      <div class='down-arrow'></div>
+    </div>
   </div>
   <div id='page-2' class='page'>
     <div class='website tile' data-route='website'>
       <div class='overlay'></div>
       <div class='content'>
         <div class='container'>
-          <div class='icon'></div>
-          <h1>Website + <br/> App Design</h1>
+          <div class='header-wrap'>
+            <div class='icon'></div>
+            <h1>Website + <br/> App Design</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -19,8 +24,10 @@
       <div class='overlay'></div>
       <div class='content'>
         <div class='container'>
-          <div class='icon'></div>
-          <h1>Architecture +  <br/> Interior Design</h1>
+          <div class='header-wrap'>
+            <div class='icon'></div>
+            <h1>Architecture +  <br/> Interior Design</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -28,8 +35,10 @@
       <div class='overlay'></div>
       <div class='content'>
         <div class='container'>
-          <div class='icon'></div>
-          <h1>Graphic Design <br/> + Branding</h1>
+          <div class='header-wrap'>
+            <div class='icon'></div>
+            <h1>Graphic Design <br/> + Branding</h1>
+          </div>
         </div>
       </div>
     </div>
