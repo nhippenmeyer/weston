@@ -1,3 +1,21 @@
+.page {
+  .arrow-wrap {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 20px;
+  }
+  .down-arrow {
+    width: 40px;
+    height: 12px;
+    margin: auto;
+    background-image: image-url('down-arrow.svg');
+    background-repeat: no-repeat;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 #page-1 {
   display: table;
   #logo-container {
@@ -65,15 +83,19 @@
   .container {
     display: table;
   }
-  .icon {
-    position: absolute;
-    opacity: 0;
-    transition: .5s;
-  }
-  h1 {
-    font-size: 26px;
+  .header-wrap {
     display: table-cell;
     vertical-align: middle;
+  }
+  .icon {
+    opacity: 0;
+    transition: .5s;
+    margin: auto;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 20px;
     letter-spacing: 2px;
     min-width: 300px;
     color: #aaa;
@@ -89,10 +111,8 @@
       image-url('website-long.jpg');
     .icon {
       background-image: image-url('website-appdesign.svg');
-      width: 60px;
-      height: 101px;
-      left: calc(50% - 30px);
-      top: calc(25% - 50.5px);
+      width: 30px;
+      height: 51px;
     }
   }
   .architecture {
@@ -104,10 +124,8 @@
       image-url('architecture.jpg');
     .icon {
       background-image: image-url('architecture-interiordesign.svg');
-      width: 95px;
-      height: 70px;
-      left: calc(50% - 47.5px);
-      top: calc(25% - 35px);
+      width: 47px;
+      height: 35px;
     }
   }
   .branding {
@@ -119,10 +137,8 @@
       image-url('branding.jpg');
     .icon {
       background-image: image-url('branding-graphicdesign.svg');
-      width: 100px;
-      height: 65px;
-      left: calc(50% - 50px);
-      top: calc(25% - 32.5px);
+      width: 50px;
+      height: 33px;
     }
   }
 }

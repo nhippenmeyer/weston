@@ -6,7 +6,6 @@ class Weston.Views.Layout extends Backbone.View
 
   events:
     'click .show-menu': 'showMenu'
-    'click .hide-menu': 'hideMenu'
     'click'           : 'onClick'
 
   render: ->
@@ -17,10 +16,6 @@ class Weston.Views.Layout extends Backbone.View
     e.preventDefault()
     e.stopPropagation()
     @$('#nav-menu').addClass('active')
-
-  hideMenu: (e) ->
-    e.preventDefault()
-    @$('#nav-menu').removeClass('active')
 
   onClick: (e) ->
     $el = @$('#nav-menu')

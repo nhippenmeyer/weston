@@ -46,6 +46,25 @@ li {
     font-weight: 100;
     color: #aaa;
   }
+  .links {
+    margin: 0;
+    padding: 0;
+    li {
+      padding: 40px;
+    }
+    li:nth-child(1) {
+      background: #0F141B;
+    }
+    li:nth-child(2) {
+      background: #141920;
+    }
+    li:nth-child(3) {
+      background: #181E24;
+    }
+    li:nth-child(4) {
+      background: #191F25;
+    }
+  }
 }
 
 header {
