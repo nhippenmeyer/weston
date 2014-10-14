@@ -3,24 +3,38 @@
   background-size: cover;
   background-position: center center;
   min-height: 100%;
-  .header {
-    padding-top: 20px;
-    .category {
-      margin: 0 50px;
-      margin-bottom: 20px;
-      display: inline-block;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      padding-bottom: 10px;
-      line-height: 20px;
-      &.active {
-        border-bottom: 5px solid white;
-      }
+  width: 100%;
+  display: table;
+  .content-left {
+    transform: translate3d(-100%, 0, 0);
+  }
+  .content-left {
+    transform: translate3d(100%, 0, 0);
+  }
+  .category-content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .nav-left, .nav-right {
+    width: 9px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    &:hover {
+      cursor: pointer;
     }
+  }
+  .nav-left {
+    left: 10px;
+    background-image: image-url('left-arrow-white.svg');
+  }
+  .nav-right {
+    right: 10px;
+    background-image: image-url('right-arrow-white.svg');
   }
   .icon {
     margin: auto;
-    margin-top: 100px;
   }
   h1 {
     font-size: 56px;

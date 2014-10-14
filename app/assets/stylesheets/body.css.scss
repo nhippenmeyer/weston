@@ -30,11 +30,11 @@ li {
 #nav-menu {
   width: 300px;
   height: 100%;
-  background: #333;
   transform: translate3d(-300px,0,0);
   transition: all .5s;
   z-index: 1000;
   position: fixed;
+  background: #343B40;
   &.active {
     transform: translate3d(0,0,0);
   }
@@ -53,16 +53,16 @@ li {
       padding: 40px;
     }
     li:nth-child(1) {
-      background: #0F141B;
+      background: #111A20;
     }
     li:nth-child(2) {
-      background: #141920;
+      background: #192228;
     }
     li:nth-child(3) {
-      background: #181E24;
+      background: #222A30;
     }
     li:nth-child(4) {
-      background: #191F25;
+      background: #2B3338;
     }
   }
 }
@@ -71,14 +71,31 @@ header {
   position: fixed;
   color: black;
   z-index: 999;
+  background: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 50px;
   .menu {
     width: 30px;
     height: 17px;
     background-image: image-url('menu-white.svg');
-    margin: 10px;
+    margin: 16.5px;
+    float: left;
     &.dark {
       background-image: image-url('menu.svg');
     }
+  }
+  .logo {
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+  }
+  .logo-icon {
+    background-image: image-url('logo-white.svg');
+    width: 30px;
+    height: 24px;
+    position: relative;
+    margin: auto;
+    top: 12px;
   }
 }
 

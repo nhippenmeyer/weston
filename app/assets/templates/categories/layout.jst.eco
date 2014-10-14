@@ -1,23 +1,13 @@
-<div class='header'>
-  <a class='category <%= if @category is 'website' then 'active' else '' %>'
-     href='#website'>
-     Website + <br/> App Design
-  </a>
-  <a class='category <%= if @category is 'architecture' then 'active' else '' %>'
-     href='#architecture'>
-     Architecture + <br/> Interior Design
-  </a>
-  <a class='category <%= if @category is 'branding' then 'active' else '' %>'
-     href='#branding'>
-     Graphic Design <br/> + Branding
-  </a>
+<div class='category-content'>
+  <div class='nav-left'></div>
+  <div class='nav-right'></div>
+  <div class='icon'></div>
+  <% if @category is 'website': %>
+    <h1>Website + <br/> App Design</h1>
+  <% else if @category is 'architecture': %>
+    <h1>Architecture + <br/> Interior Design</h1>
+  <% else if @category is 'branding': %>
+    <h1>Graphic Design <br/> + Branding</h1>
+  <% end %>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat eu mauris dignissim placerat. Suspendisse potenti. Mauris consequat lectus quis urna mollis scelerisque. </p>
 </div>
-<div class='icon'></div>
-<% if @category is 'website': %>
-  <h1>Website + <br/> App Design</h1>
-<% else if @category is 'architecture': %>
-  <h1>Architecture + <br/> Interior Design</h1>
-<% else if @category is 'branding': %>
-  <h1>Graphic Design <br/> + Branding</h1>
-<% end %>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat eu mauris dignissim placerat. Suspendisse potenti. Mauris consequat lectus quis urna mollis scelerisque. </p>
