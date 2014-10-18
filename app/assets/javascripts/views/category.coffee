@@ -8,6 +8,7 @@ class Weston.Views.Category extends Backbone.View
   events:
     'click .nav-left' : 'navigateLeft'
     'click .nav-right': 'navigateRight'
+    'click .nav-down' : 'scrollDown'
 
   initialize: (opts = {}) ->
     { pages } = opts
@@ -28,6 +29,7 @@ class Weston.Views.Category extends Backbone.View
       $navRight.html(
         "<div class='text'>#{@pageRight.name}</div><div class='icon'></div")
       @$el.append(@pageRight.render().el)
+    @$('.projects').html(@projectsTemplate())
     this
 
   navigateLeft: ->
@@ -43,3 +45,8 @@ class Weston.Views.Category extends Backbone.View
     setTimeout =>
       Backbone.history.navigate @navRightRoute, trigger: true
     , 750
+
+  scrollDown: (e) ->
+    @$('>.category-content').animate
+      scrollTop: @$('.projects').position().top
+    , 500

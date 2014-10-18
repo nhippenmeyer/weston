@@ -1,7 +1,15 @@
 <div class='category-content'>
-  <div class='nav-left'></div>
-  <div class='nav-right'></div>
-  <div class='header'><h1></h1></div>
-  <div class='icon'></div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat eu mauris dignissim placerat. Suspendisse potenti. Mauris consequat lectus quis urna mollis scelerisque. </p>
+  <div class='landing-page'>
+    <div class='landing-wrap'>
+      <div class='nav-left'></div>
+      <div class='nav-right'></div>
+      <div class='nav-down'>
+        <div class='text'>Browse Projects</div>
+        <div class='icon'></div>
+      </div>
+      <div class='header-icon'></div>
+      <div class='header'><h1></h1></div>
+    </div>
+  </div>
+  <div class='projects'></div>
 </div>
