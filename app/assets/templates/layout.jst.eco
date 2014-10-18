@@ -11,5 +11,5 @@
     <a href='#' class='show-menu'><div class='menu'></div></a>
     <a href='#' class='logo'><div class='logo-icon'></div></a>
   </header>
-  <div id='page-content'></div>
+  <div id='page-region'></div>
 </div>

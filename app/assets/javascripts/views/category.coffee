@@ -18,12 +18,14 @@ class Weston.Views.Category extends Backbone.View
   render: ->
     @$el.html(@layoutTemplate(category: @category))
     @$('.header h1').html(@name)
+    $navLeft = @$('.nav-left')
+    $navRight = @$('.nav-right')
     if @pageLeft
-      @$('.nav-left').html(
+      $navLeft.html(
         "<div class='icon'></div><div class='text'>#{@pageLeft.name}</div>")
       @$el.prepend(@pageLeft.render().el)
     if @pageRight
-      @$('.nav-right').html(
+      $navRight.html(
         "<div class='text'>#{@pageRight.name}</div><div class='icon'></div")
       @$el.append(@pageRight.render().el)
     this

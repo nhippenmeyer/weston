@@ -12,10 +12,11 @@ window.Weston =
     Backbone.history.on 'route', @onRouteChange
     Backbone.history.start()
 
-  onRouteChange: (route) =>
-    $(window).off 'scroll'
-    $(window).scroll route.onScroll if route.onScroll
-    Weston.layout.$('#nav-menu').removeClass('active')
+  onRouteChange: (router, route) =>
+    $('#page-content').off 'scroll'
+    $('#page-content').scroll router.onScroll if router.onScroll
+    Weston.layout.$el.attr('data-page', route)
+    Weston.layout.$('#page-wrap').removeClass('nav-active')
 
 $(document).ready ->
   Weston.init()

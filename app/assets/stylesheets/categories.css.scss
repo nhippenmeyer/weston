@@ -5,6 +5,8 @@
   width: 100%;
   display: table;
   transition: all .75s;
+  position: absolute;
+  top: 0; bottom: 0;
   .category-page {
     position: absolute;
     &:first-child {

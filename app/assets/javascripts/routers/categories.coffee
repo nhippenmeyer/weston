@@ -17,4 +17,4 @@ class Weston.Routers.Categories extends Backbone.Router
     @showView()
 
   showView: ->
-    $('#page-content').html(@view.render().el)
+    $('#page-region').html(@view.render().el)

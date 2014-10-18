@@ -4,7 +4,7 @@ class Weston.Routers.Home extends Backbone.Router
 
   home: ->
     @view = new Weston.Views.Home
-    $('#page-content').html(@view.render().el)
+    $('#page-region').html(@view.render().el)
     @onScroll()
 
   onScroll: =>

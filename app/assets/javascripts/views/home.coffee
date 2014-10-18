@@ -14,8 +14,8 @@ class Weston.Views.Home extends Backbone.View
     $el = $(e.currentTarget)
     $el.siblings().addClass('inactive')
     $el.addClass('active')
-    $('html, body').animate
-      scrollTop: $el.offset().top
+    $('#page-content').animate
+      scrollTop: $el.position().top
     , 1500
     @onTransitionEnd($el[0], @showTile)
 
@@ -24,6 +24,6 @@ class Weston.Views.Home extends Backbone.View
 
   scrollDown: (e) ->
     $el = $(e.currentTarget).closest('.page').next('.page')
-    @$('.content').animate
-      scrollTop: $el.offset().top
+    @$('#page-content').animate
+      scrollTop: $el.position().top
     , 500
