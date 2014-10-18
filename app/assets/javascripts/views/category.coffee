@@ -31,11 +31,13 @@ class Weston.Views.Category extends Backbone.View
   navigateLeft: ->
     return unless @pageLeft
     @$el.css('transform': 'translate3d(100%, 0, 0')
-    @onTransitionEnd @el, =>
+    setTimeout =>
       Backbone.history.navigate @navLeftRoute, trigger: true
+    , 750
 
   navigateRight: ->
     return unless @pageRight
     @$el.css('transform': 'translate3d(-100%, 0, 0')
-    @onTransitionEnd @el, =>
+    setTimeout =>
       Backbone.history.navigate @navRightRoute, trigger: true
+    , 750
