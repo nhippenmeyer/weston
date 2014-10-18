@@ -15,9 +15,9 @@ class Weston.Views.Layout extends Backbone.View
   showMenu: (e) ->
     e.preventDefault()
     e.stopPropagation()
-    @$('#nav-menu').addClass('active')
+    @$('#page-wrap').addClass('nav-active')
 
   onClick: (e) ->
     $el = @$('#nav-menu')
     if !$el.is(e.target) and $el.has(e.target).length is 0
-      @$('#nav-menu').removeClass('active')
+      @$('#page-wrap').removeClass('nav-active')

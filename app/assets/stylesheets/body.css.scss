@@ -23,6 +23,16 @@ li {
   list-style: none;
 }
 
+#page-wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  transition: all .5s;
+  &.nav-active {
+    transform: translate3d(300px,0,0);
+  }
+}
+
 #page-layout, #page-content {
   height: 100%;
   width: 100%;
@@ -40,9 +50,6 @@ li {
   z-index: 1000;
   position: fixed;
   background: #343B40;
-  &.active {
-    transform: translate3d(0,0,0);
-  }
   .hide-menu {
     font-size: 30px;
     line-height: 30px;
