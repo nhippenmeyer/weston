@@ -17,16 +17,13 @@ class Weston.Views.Home extends Backbone.View
     $('html, body').animate
       scrollTop: $el.offset().top
     , 1500
-    $el[0].addEventListener 'webkitTransitionEnd', @showTile, false
-    $el[0].addEventListener 'transitionend', @showTile, false
-    $el[0].addEventListener 'msTransitionEnd', @showTile, false
-    $el[0].addEventListener 'oTransitionEnd', @showTile, false
+    @onTransitionEnd($el[0], @showTile)
 
   showTile: (e) ->
     Backbone.history.navigate $(e.target).data('route'), trigger: true
 
   scrollDown: (e) ->
     $el = $(e.currentTarget).closest('.page').next('.page')
-    $('html, body').animate
+    @$('.content').animate
       scrollTop: $el.offset().top
     , 500
