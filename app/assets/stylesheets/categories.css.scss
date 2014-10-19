@@ -58,7 +58,7 @@
     }
   }
   .nav-down {
-    bottom: 10px;
+    bottom: 20px;
     width: 100%;
     .text {
       margin-bottom: 5px;
@@ -121,17 +121,74 @@
   }
 }
 
-#architecture-category>.category-content>.landing-page {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 20, 0.5),
-      rgba(0, 0, 20, 0.5)
-    ),
-    image-url('architecture.jpg');
-  .header-icon {
-    background-image: image-url('architecture-interiordesign.svg');
-    width: 95px;
-    height: 70px;
+#architecture-category {
+  >.category-content>.landing-page {
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 20, 0.5),
+        rgba(0, 0, 20, 0.5)
+      ),
+      image-url('architecture.jpg');
+    .header-icon {
+      background-image: image-url('architecture-interiordesign.svg');
+      width: 95px;
+      height: 70px;
+    }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .project {
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    &.talan-towers {
+      background-image: image-url('projects/architecture/Talan-Towers.jpg')
+    }
+    &.tp180 {
+      background-image: image-url('projects/architecture/TP-180.jpg')
+    }
+    &.paprika {
+      background-image: image-url('projects/architecture/Paprika-Interior.jpg')
+    }
+    &.thakher-city {
+      background-image: image-url('projects/architecture/Thakher-City.jpg')
+    }
+    &.cardboard-facade {
+      background-image: image-url('projects/architecture/Cardboard-Wall.jpg')
+    }
+    &.urban-suture {
+      background-image: image-url('projects/architecture/Urban-Suture.jpg')
+    }
+    &.turkcell-campus-masterplan {
+      background-image: image-url('projects/architecture/Turkcell-Campus-Masterplan.jpg')
+    }
+    &:hover {
+      .overlay {
+        background: rgba(0,0,20,.7)
+      }
+      .title {
+        opacity: 1;
+      }
+    }
+    .overlay {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background: rgba(0,0,20,0);
+      transition: all .5s;
+    }
+    .title {
+      opacity: 0;
+      font-size: 25px;
+      letter-spacing: 4px;
+      position: absolute;
+      width: 100%;
+      margin: 0;
+      font-weight: 500;
+      transition: all .5s;
+    }
   }
 }
 

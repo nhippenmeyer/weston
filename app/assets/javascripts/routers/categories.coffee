@@ -18,3 +18,5 @@ class Weston.Routers.Categories extends Backbone.Router
 
   showView: ->
     $('#page-region').html(@view.render().el)
+    @view.$('.project').each ->
+      $(this).css('height', $(this).width() * .75)
