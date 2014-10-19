@@ -23,11 +23,7 @@
   }
   .header-icon {
     margin: auto;
-  }
-  h1 {
-    font-size: 56px;
-    text-transform: uppercase;
-    font-weight: 600;
+    margin-bottom: 40px;
   }
   .nav-left, .nav-right {
     top: 50%;
@@ -114,7 +110,7 @@
       rgba(0, 0, 20, 0.5)
     ),
     image-url('website-long.jpg');
-  >.category-content .landing-page .icon {
+  .header-icon {
     background-image: image-url('website-appdesign.svg');
     width: 60px;
     height: 101px;
@@ -181,12 +177,9 @@
     }
     .title {
       opacity: 0;
-      font-size: 25px;
-      letter-spacing: 4px;
       position: absolute;
       width: 100%;
       margin: 0;
-      font-weight: 500;
       transition: all .5s;
     }
   }
