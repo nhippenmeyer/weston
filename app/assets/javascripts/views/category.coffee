@@ -48,5 +48,5 @@ class Weston.Views.Category extends Backbone.View
 
   scrollDown: (e) ->
     @$('>.category-content').animate
-      scrollTop: @$('.projects').position().top
+      scrollTop: @$('>.category-content .landing-page').height()
     , 500
