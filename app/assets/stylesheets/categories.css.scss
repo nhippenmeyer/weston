@@ -100,20 +100,85 @@
   }
   .projects {
     height: 100%;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .project {
+      width: 50%;
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      &:hover {
+        .overlay {
+          background: rgba(0,0,20,.7)
+        }
+        .title {
+          opacity: 1;
+        }
+      }
+      .overlay {
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background: rgba(0,0,20,0);
+        transition: all .5s;
+      }
+      .title {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        transition: all .5s;
+      }
+    }
   }
 }
 
-#website-category>.category-content>.landing-page {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 20, 0.5),
-      rgba(0, 0, 20, 0.5)
-    ),
-    image-url('website-long.jpg');
-  .header-icon {
-    background-image: image-url('website-appdesign.svg');
-    width: 60px;
-    height: 101px;
+#website-category {
+  >.category-content>.landing-page {
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 20, 0.5),
+        rgba(0, 0, 20, 0.5)
+      ),
+      image-url('website-long.jpg');
+    .header-icon {
+      background-image: image-url('website-appdesign.svg');
+      width: 60px;
+      height: 101px;
+    }
+  }
+  .project {
+    &.spotify-for-brands-discovery-tool {
+      background-image: image-url('projects/website/Spotify-For-Brands-Discovery-Tool.jpg')
+    }
+    &.eagle-point-hotel-partners {
+      background-image: image-url('projects/website/Eagle-Point-Hotel-Partners.jpg')
+    }
+    &.pepsi-pulse {
+      background-image: image-url('projects/website/PepsiPulse-ArtistSpotlight.jpg')
+    }
+    &.made-in-america-festival {
+      background-image: image-url('projects/website/Budweiser-Made-In-America-Festival.jpg')
+    }
+    &.independent-lodging-congress {
+      background-image: image-url('projects/website/Independent-Lodging-Congress.jpg')
+    }
+    &.thatsongwhen {
+      background-image: image-url('projects/website/Spotify-thatsongwhen2.jpg')
+    }
+    &.paprika {
+      background-image: image-url('projects/website/Paprika.jpg')
+    }
+    &.michael-kors-wish-list-2014 {
+      background-image: image-url('projects/website/MK-Wishlist-1.jpg')
+    }
+    &.yocrawl {
+      background-image: image-url('projects/website/YoCrawl.jpg')
+    }
+    &.emissary {
+      background-image: image-url('projects/website/Emissary.jpg')
+    }
   }
 }
 
@@ -131,15 +196,7 @@
       height: 70px;
     }
   }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
   .project {
-    width: 50%;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
     &.talan-towers {
       background-image: image-url('projects/architecture/Talan-Towers.jpg')
     }
@@ -161,40 +218,21 @@
     &.turkcell-campus-masterplan {
       background-image: image-url('projects/architecture/Turkcell-Campus-Masterplan.jpg')
     }
-    &:hover {
-      .overlay {
-        background: rgba(0,0,20,.7)
-      }
-      .title {
-        opacity: 1;
-      }
-    }
-    .overlay {
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      background: rgba(0,0,20,0);
-      transition: all .5s;
-    }
-    .title {
-      opacity: 0;
-      position: absolute;
-      width: 100%;
-      margin: 0;
-      transition: all .5s;
-    }
   }
 }
 
-#branding-category>.category-content>.landing-page {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 20, 0.5),
-      rgba(0, 0, 20, 0.5)
-    ),
-    image-url('branding.jpg');
-  .header-icon {
-    background-image: image-url('branding-graphicdesign.svg');
-    width: 100px;
-    height: 65px;
+#branding-category {
+  >.category-content>.landing-page {
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 20, 0.5),
+        rgba(0, 0, 20, 0.5)
+      ),
+      image-url('branding.jpg');
+    .header-icon {
+      background-image: image-url('branding-graphicdesign.svg');
+      width: 100px;
+      height: 65px;
+    }
   }
 }
