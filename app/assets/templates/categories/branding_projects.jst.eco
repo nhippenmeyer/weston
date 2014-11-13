@@ -1,0 +1,32 @@
+<table>
+  <tr>
+    <td class='project turkiss'>
+      <div class='overlay'></div>
+      <h2 class='title'>Turkiss</h2>
+    </td>
+    <td class='project vitamin-chick'>
+      <div class='overlay'></div>
+      <h2 class='title'>VitaminChick</h2>
+    </td>
+  </tr>
+  <tr>
+    <td class='project nz'>
+      <div class='overlay'></div>
+      <h2 class='title'>NZ</h2>
+    </td>
+    <td class='project paprika'>
+      <div class='overlay'></div>
+      <h2 class='title'>Paprika</h2>
+    </td>
+  </tr>
+  <tr>
+    <td class='project times-square-billboard'>
+      <div class='overlay'></div>
+      <h2 class='title'>TImes Square Billboard</h2>
+    </td>
+    <td class='project mission-control'>
+      <div class='overlay'></div>
+      <h2 class='title'>Mission Control</h2>
+    </td>
+  </tr>
+</table>

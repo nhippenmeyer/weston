@@ -98,8 +98,10 @@
       }
     }
   }
-  .projects {
+  .projects-section {
     height: 100%;
+  }
+  .projects {
     table {
       width: 100%;
       border-collapse: collapse;
@@ -132,6 +134,39 @@
       }
     }
   }
+  .quote {
+    padding: 100px 25%;
+    background: #222A30;
+    position: relative;
+    .quote-text {
+      font-size: 20px;
+      font-weight: 100;
+      color: #ccc;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+    .quote-author {
+      text-align: right;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  .footer {
+    background: #192228;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    .logo {
+      background-image: image-url('logo-white.svg');
+      width: 56px;
+      height: 43px;
+      margin: auto;
+    }
+    .legal {
+      margin-top: 30px;
+      font-size: 10px;
+      color: #ccc;
+    }
+  }
 }
 
 #website-category {
@@ -141,7 +176,7 @@
         rgba(0, 0, 20, 0.5),
         rgba(0, 0, 20, 0.5)
       ),
-      image-url('website-long.jpg');
+      image-url('website.jpg');
     .header-icon {
       background-image: image-url('website-appdesign.svg');
       width: 60px;
@@ -233,6 +268,26 @@
       background-image: image-url('branding-graphicdesign.svg');
       width: 100px;
       height: 65px;
+    }
+  }
+  .project {
+    &.turkiss {
+      background-image: image-url('projects/branding/Turkiss.jpg')
+    }
+    &.vitamin-chick {
+      background-image: image-url('projects/branding/VitaminChick2.jpg')
+    }
+    &.nz {
+      background-image: image-url('projects/branding/NZ.jpg')
+    }
+    &.paprika {
+      background-image: image-url('projects/branding/Paprika-07.jpg')
+    }
+    &.times-square-billboard {
+      background-image: image-url('projects/branding/TimesSquareBillboard2.jpg')
+    }
+    &.mission-control {
+      background-image: image-url('projects/branding/MissionControl.jpg')
     }
   }
 }

@@ -30,6 +30,8 @@ class Weston.Views.Category extends Backbone.View
         "<div class='text'>#{@pageRight.name}</div><div class='icon'></div")
       @$el.append(@pageRight.render().el)
     @$('.projects').html(@projectsTemplate())
+    @$('.quote-text').html("\"#{@quote}\"")
+    @$('.quote-author').html("- #{@quoteAuthor}")
     this
 
   navigateLeft: ->
