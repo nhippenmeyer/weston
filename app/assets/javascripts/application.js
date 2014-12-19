@@ -15,6 +15,7 @@
 //= require underscore
 //= require backbone
 //= require weston
+//= require_tree ./data
 //= require_tree ../templates
 //= require views/category
 //= require_tree ./views

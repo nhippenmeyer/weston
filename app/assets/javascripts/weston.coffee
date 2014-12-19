@@ -1,4 +1,5 @@
 window.Weston =
+  Data: {}
   Models: {}
   Collections: {}
   Views: {}

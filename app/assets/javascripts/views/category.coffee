@@ -19,8 +19,12 @@ class Weston.Views.Category extends Backbone.View
     @$('.header h1').html(@name)
     @$('.projects').html(@projectsTemplate())
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
-    @$('.quote-text').html("\"#{@quote}\"")
-    @$('.quote-author').html("- #{@quoteAuthor}")
+
+    quote = Weston.Data.Quotes[@category].quote
+    author = Weston.Data.Quotes[@category].author
+    @$('.quote-text').html("\"#{quote}\"")
+    @$('.quote-author').html("- #{author}")
+
     _.defer => @$('.project').each -> $(this).css('height', $(this).width() * .75)
     this
 
