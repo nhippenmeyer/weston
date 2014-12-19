@@ -1,0 +1,41 @@
+.project-page {
+  .landing-wrap {
+    background-size: cover;
+    background-position: center center;
+  }
+  .nav-left .icon, .nav-right .icon {
+    position: relative;
+    top: 10px;
+  }
+  .image {
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .single-wide {
+    height: 500px;
+    width: 50%;
+    &.left {
+      float: left
+    }
+    &.right {
+      float: right
+    }
+  }
+  .copy-container {
+    padding: 80px;
+    color: black;
+    text-align: left;
+  }
+  h1 {
+    text-transform: none;
+    font-size: 16px;
+    margin: 40px 0;
+  }
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 40px 0;
+    color: #666;
+  }
+}

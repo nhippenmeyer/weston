@@ -5,7 +5,7 @@ class Weston.Views.CategoriesBranding extends Weston.Views.Category
   name: 'Branding + </br> Graphic Design'
   projectsTemplate: JST['categories/branding_projects']
 
-  navLeftRoute: '#architecture'
+  navLeftRoute: -> '#architecture'
   navLeftPage: -> new Weston.Views.CategoriesArchitecture(pages: false)
 
   quote: "When Aeschines spoke, they said, ‘How well he speaks.’ But when Demosthenes spoke, they said, ‘Let us march against Philip.'"

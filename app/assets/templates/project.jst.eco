@@ -1,0 +1,30 @@
+<div class='project-content'>
+  <div class='landing-page'>
+    <div class='landing-wrap'>
+      <div class='nav-left'></div>
+      <div class='nav-right'></div>
+    </div>
+  </div>
+  <div class='project-section'>
+    <div class='single-wide left copy'><div class='copy-container'></div></div>
+    <div class='single-wide first right image'></div>
+    <div class='clear'></div>
+    <div class='single-wide second left image'></div>
+    <div class='single-wide third right image'></div>
+    <div class='clear'></div>
+    <div class='details'></div>
+    </div>
+    <div class='quote'>
+      <div class='nav-left'></div>
+      <div class='quote-text'></div>
+      <div class='quote-author'></div>
+      <div class='nav-right'></div>
+    </div>
+    <div class='footer'>
+      <div class='logo'></div>
+      <div class='legal'>
+        All contents © Weston Baker Design LLC 2014
+      </div>
+    </div>
+  </div>
+</div>

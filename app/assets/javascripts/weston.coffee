@@ -9,6 +9,7 @@ window.Weston =
     $('body').html(@layout.render().el)
     new Weston.Routers.Home
     new Weston.Routers.Categories
+    new Weston.Routers.Projects
     Backbone.history.on 'route', @onRouteChange
     Backbone.history.start()
 

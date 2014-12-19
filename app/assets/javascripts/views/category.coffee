@@ -12,41 +12,17 @@ class Weston.Views.Category extends Backbone.View
 
   initialize: (opts = {}) ->
     { pages } = opts
-    unless pages is false
-      @pageLeft = @navLeftPage() if @navLeftPage
-      @pageRight = @navRightPage() if @navRightPage
+    @setSiblingPages(pages)
 
   render: ->
     @$el.html(@layoutTemplate(category: @category))
     @$('.header h1').html(@name)
-    $navLeft = @$('.nav-left')
-    $navRight = @$('.nav-right')
-    if @pageLeft
-      $navLeft.html(
-        "<div class='icon'></div><div class='text'>#{@pageLeft.name}</div>")
-      @$el.prepend(@pageLeft.render().el)
-    if @pageRight
-      $navRight.html(
-        "<div class='text'>#{@pageRight.name}</div><div class='icon'></div")
-      @$el.append(@pageRight.render().el)
     @$('.projects').html(@projectsTemplate())
+    @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
     @$('.quote-text').html("\"#{@quote}\"")
     @$('.quote-author').html("- #{@quoteAuthor}")
+    _.defer => @$('.project').each -> $(this).css('height', $(this).width() * .75)
     this
-
-  navigateLeft: ->
-    return unless @pageLeft
-    @$el.css('transform': 'translate3d(100%, 0, 0')
-    setTimeout =>
-      Backbone.history.navigate @navLeftRoute, trigger: true
-    , 750
-
-  navigateRight: ->
-    return unless @pageRight
-    @$el.css('transform': 'translate3d(-100%, 0, 0')
-    setTimeout =>
-      Backbone.history.navigate @navRightRoute, trigger: true
-    , 750
 
   scrollDown: (e) ->
     @$('>.category-content').animate
