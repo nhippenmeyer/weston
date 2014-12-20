@@ -54,39 +54,39 @@ class Weston.Views.Project extends Backbone.View
   render: ->
     @$el.html(@template())
     @renderLeftRightPages("Previous Project", "Next Project")
-    @renderImages()
     @renderCopy()
+    @renderImages()
     @pageLeft.render() if @pageLeft
     @pageRight.render() if @pageRight
     this
 
   renderImages: ->
     @$('.landing-wrap').css('background-image', "url(#{@getProjectImageURLs()}/cover.jpg)")
-    @$('.single-wide.first').css('background-image', "url(#{@getProjectImageURLs()}/1.jpg)")
-    @$('.single-wide.second').css('background-image', "url(#{@getProjectImageURLs()}/2.jpg)")
-    @$('.single-wide.third').css('background-image', "url(#{@getProjectImageURLs()}/3.jpg)")
-    i = 4
-    while i <= @getProjectCopy().numPhotos
-      @appendDoubleWideImage(i) if @getProjectCopy().numPhotos >= i
-      @appendDoubleWideImage(i+1) if @getProjectCopy().numPhotos >= i+1
-      @appendSingleWideImages(i+2) if @getProjectCopy().numPhotos >= i+2
-      @appendSingleWideImages(i+4) if @getProjectCopy().numPhotos >= i+4
-      i += 6
+    @$('.single-wide.image').css('background-image', "url(#{@getProjectImageURLs()}/1.jpg)")
+    i = 2
+    while i <= @getProjectCopy().photos.length
+      size = @getProjectCopy().photos[i-1]
+      if size is 1
+        @appendSingleWideImages(i)
+        i += 2
+      else if size is 2
+        @appendDoubleWideImage(i)
+        i += 1
 
   appendDoubleWideImage: (i) ->
     $img = $("<div class='image'></div>")
     $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i}.jpg)")
-    @$('.details').append($img)
+    @$('.images').append($img)
 
   appendSingleWideImages: (i) ->
     $img = $("<div class='single-wide image left'></div>")
     $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i}.jpg)")
-    @$('.details').append($img)
-    if i+1 < @getProjectCopy().numPhotos
+    @$('.images').append($img)
+    if i+1 < @getProjectCopy().photos.length
       $img = $("<div class='single-wide image right'></div>")
       $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i+1}.jpg)")
-      @$('.details').append($img)
-    @$('.details').append("<div class='clear'></div>")
+      @$('.images').append($img)
+    @$('.images').append("<div class='clear'></div>")
 
   renderCopy: ->
     @$('.copy-container').append("<h1>#{@getProjectCopy().title}</h1>")

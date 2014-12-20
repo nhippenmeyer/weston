@@ -6,13 +6,12 @@
     </div>
   </div>
   <div class='project-section'>
-    <div class='single-wide left copy'><div class='copy-container'></div></div>
-    <div class='single-wide first right image'></div>
-    <div class='clear'></div>
-    <div class='single-wide second left image'></div>
-    <div class='single-wide third right image'></div>
-    <div class='clear'></div>
-    <div class='details'></div>
+    <div class='images'>
+      <div class='single-wide left copy'>
+        <div class='copy-container'></div>
+      </div>
+      <div class='single-wide image right'></div>
+      <div class='clear'></div>
     </div>
     <div class='quote'>
       <div class='nav-left'></div>
