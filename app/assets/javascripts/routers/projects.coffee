@@ -5,3 +5,4 @@ class Weston.Routers.Projects extends Backbone.Router
   project: (project) ->
     @view = new Weston.Views.Project(project: project)
     $('#page-region').html(@view.render().el)
+    $('header .menu').removeClass('dark')

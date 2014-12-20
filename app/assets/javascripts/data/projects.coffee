@@ -2,7 +2,7 @@ Weston.Data.Projects =
   website:
     "spotify-discovery-tool":
       title: "Spotify for Brands Discovery Tool"
-      paragraph: "The Mission: To create a web-based, interactive digital marketing tool for Spotify for Brands that can be used to tell a statistical story in a cool and informative way. The music-themed product was first used on the ground at Cannes Lions 2014.<br/>The Concept: To represent the data using musical elements and interfaces in a way that is on brand with Spotify. Not only does the website bring a cool factor to the representation of data using dynamic mixing boards and records that spin, but also simplifies over 500,000 data entries in a cohesive and fun story."
+      paragraph: "The Mission: To create a web-based, interactive digital marketing tool for Spotify for Brands that can be used to tell a statistical story in a cool and informative way. The music-themed product was first used on the ground at Cannes Lions 2014.<br/><br/>The Concept: To represent the data using musical elements and interfaces in a way that is on brand with Spotify. Not only does the website bring a cool factor to the representation of data using dynamic mixing boards and records that spin, but also simplifies over 500,000 data entries in a cohesive and fun story."
       company: "Layerframe"
       role: "Creative Direction"
       link: "http://spotifyforbrands.com/"

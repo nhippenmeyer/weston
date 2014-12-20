@@ -145,3 +145,55 @@
     }
   }
 }
+
+#about-page, #contact-page {
+  color: black;
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    color: #666;
+    line-height: 22px;
+    margin: 40px 20%;
+    &.small {
+      font-size: 12px;
+      color: #999;
+      line-height: 18px;
+    }
+  }
+  .image {
+    background-size: cover;
+    background-position: center center;
+    width: 80%;
+    padding: 20% 0;
+    margin: auto;
+  }
+}
+
+#about-page {
+  .image {
+    background-image: image-url('about-cover.jpg');
+  }
+  a {
+    background: #57b5ea;
+    height: 20px;
+    margin: 40px auto 80px auto;
+    display: block;
+    color: white;
+    padding: 15px;
+    width: 160px;
+    text-transform: uppercase;
+  }
+}
+
+#contact-page {
+  .image {
+    background-image: image-url('contact-cover.jpg');
+  }
+  p:not(.small) {
+    text-transform: uppercase;
+  }
+  img {
+    margin-top: 60px;
+  }
+}

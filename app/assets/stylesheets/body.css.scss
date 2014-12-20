@@ -64,6 +64,7 @@ li {
 
 #page-region {
   position: fixed;
+  overflow: auto;
 }
 
 #nav-menu {
@@ -131,6 +132,23 @@ header {
     background-image: image-url('logo-white.svg');
     width: 30px;
     height: 23px;
+  }
+}
+
+.footer {
+  background: #192228;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  .logo {
+    background-image: image-url('logo-white.svg');
+    width: 56px;
+    height: 43px;
+    margin: auto;
+  }
+  .legal {
+    margin-top: 30px;
+    font-size: 10px;
+    color: #ccc;
   }
 }
 
@@ -273,22 +291,6 @@ header {
       text-align: right;
       text-transform: uppercase;
       letter-spacing: 2px;
-    }
-  }
-  .footer {
-    background: #192228;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    .logo {
-      background-image: image-url('logo-white.svg');
-      width: 56px;
-      height: 43px;
-      margin: auto;
-    }
-    .legal {
-      margin-top: 30px;
-      font-size: 10px;
-      color: #ccc;
     }
   }
 }

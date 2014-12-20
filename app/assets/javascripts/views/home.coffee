@@ -17,13 +17,12 @@ class Weston.Views.Home extends Backbone.View
     $('#page-content').animate
       scrollTop: $el.position().top
     , 1500
-    @onTransitionEnd($el[0], @showTile)
+    setTimeout =>
+      @showTile(e)
+    , 1500
 
   showTile: (e) ->
-    if $(window).width() <= 600
-      $target = $(e.currentTarget)
-    else
-      $target = $(e.target)
+    $target = $(e.target).closest('.tile')
     Backbone.history.navigate $target.data('route'), trigger: true
 
   scrollDown: (e) ->
