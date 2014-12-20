@@ -146,6 +146,12 @@
   }
 }
 
+#page-layout[data-page='contact'], #page-layout[data-page='about'] {
+  #page-region {
+    overflow: auto;
+  }
+}
+
 #about-page, #contact-page {
   color: black;
   h1 {
