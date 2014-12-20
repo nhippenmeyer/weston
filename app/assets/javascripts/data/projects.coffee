@@ -89,7 +89,7 @@ Weston.Data.Projects =
     "urban-suture":
       title: "Urban Suture"
       paragraph: "The favelas of Rio De Janeiro are almost completely detached from the rest of the city, which is a result of geography, societal and economic differences, and a plethora of other aspects that add to the division of people and neighborhoods. Through the Urban Suture critical entry points within the favelas and beach development are linked through a seamless and unified space that is suspended above the urban fabric in order to maintain the existing communities and enhance connections between them. The form, an adaptation of Brazilian Modernism, is subdivided to create a spatial gradation that responds to the scale and character of the buildings it touches. This unique urban typology provides a place for the beginning of a relationship between the divided favela and beach populations. "
-      company: "Design Partnership: Eric Suntup"
+      subtext: "Design Partnership: Eric Suntup"
       photos: [1,2,1,1,2]
     "turkcell-campus":
       title: "Turkcell Campus Masterplan"

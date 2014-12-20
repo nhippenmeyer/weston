@@ -91,7 +91,14 @@ class Weston.Views.Project extends Backbone.View
   renderCopy: ->
     @$('.copy-container').append("<h1>#{@getProjectCopy().title}</h1>")
     @$('.copy-container').append("<p>#{@getProjectCopy().paragraph}</p>")
-    @$('.copy-container').append("<a href='#{@getProjectCopy().paragraph}' target='_blank'>Visit the site</a>")
+    if @getProjectCopy().company
+      @$('.copy-container').append("<div class='company'>Company: #{@getProjectCopy().company}</div>")
+    if @getProjectCopy().role
+      @$('.copy-container').append("<div class='role'>Role: #{@getProjectCopy().role}</div>")
+    if @getProjectCopy().subtext
+      @$('.copy-container').append("<div class='subtext'>#{@getProjectCopy().subtext}</div>")
+    if @getProjectCopy().link
+      @$('.copy-container').append("<a href='#{@getProjectCopy().link}' target='_blank'>Visit the site</a>")
 
     quote = Weston.Data.Quotes[@getProjectCategory()].quote
     author = Weston.Data.Quotes[@getProjectCategory()].author
