@@ -20,7 +20,7 @@ class Weston.Views.Home extends Backbone.View
     @onTransitionEnd($el[0], @showTile)
 
   showTile: (e) ->
-    Backbone.history.navigate $(e.target).data('route'), trigger: true
+    Backbone.history.navigate $(e.currentTarget).data('route'), trigger: true
 
   scrollDown: (e) ->
     $el = $(e.currentTarget).closest('.page').next('.page')
