@@ -2,8 +2,7 @@ Weston.Data.Projects =
   website:
     "spotify-discovery-tool":
       title: "Spotify for Brands Discovery Tool"
-      paragraph: "The Mission: To create a web-based, interactive digital marketing tool for Spotify for Brands that can be used to tell a statistical story in a cool and informative way. The music-themed product was first used on the ground at Cannes Lions 2014.
-  The Concept: To represent the data using musical elements and interfaces in a way that is on brand with Spotify. Not only does the website bring a cool factor to the representation of data using dynamic mixing boards and records that spin, but also simplifies over 500,000 data entries in a cohesive and fun story."
+      paragraph: "The Mission: To create a web-based, interactive digital marketing tool for Spotify for Brands that can be used to tell a statistical story in a cool and informative way. The music-themed product was first used on the ground at Cannes Lions 2014.<br/>The Concept: To represent the data using musical elements and interfaces in a way that is on brand with Spotify. Not only does the website bring a cool factor to the representation of data using dynamic mixing boards and records that spin, but also simplifies over 500,000 data entries in a cohesive and fun story."
       company: "Layerframe"
       role: "Creative Direction"
       link: "http://spotifyforbrands.com/"
@@ -34,11 +33,7 @@ Weston.Data.Projects =
       numPhotos: 5
     "spotify-thatsongwhen":
       title: "Spotify #thatsongwhen"
-      paragraph: "Every song has a story. What’s yours? You hear a song, and it takes you to way back when. Spotify #thatsongwhen allows users to connect their memories to songs by writing their story and uploading images or videos to go along with it.
-
-  #thatsongwhen you skipped work to go on a road trip with your best friend.
-  #thatsongwhen you made out in the parking lot and got caught by mall security.
-  #thatsongwhen you crowd-surfed for the first time."
+      paragraph: "Every song has a story. What’s yours? You hear a song, and it takes you to way back when. Spotify #thatsongwhen allows users to connect their memories to songs by writing their story and uploading images or videos to go along with it.<br/><br/>#thatsongwhen you skipped work to go on a road trip with your best friend.<br/>#thatsongwhen you made out in the parking lot and got caught by mall security.<br/>#thatsongwhen you crowd-surfed for the first time."
       link: "http://www.spotify-thatsongwhen.com/"
       company: "Layerframe"
       role: "Creative Direction"
