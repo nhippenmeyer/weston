@@ -1,5 +1,45 @@
 .category-page {
   background: #192228;
+  .projects-section {
+    height: 100%;
+  }
+  .projects {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .project {
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      &:hover {
+        .overlay {
+          background: rgba(0,0,20,.7)
+        }
+        .title {
+          opacity: 1;
+        }
+      }
+      .overlay {
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        transition: all .5s;
+      }
+      a {
+        height: 100%;
+        display: table;
+      }
+      .title {
+        display: table-cell;
+        vertical-align: middle;
+        opacity: 0;
+        width: 100%;
+        margin: 0;
+        transition: all .5s;
+        position: relative;
+      }
+    }
+  }
 }
 
 #website-category {
@@ -29,7 +69,7 @@
     &.made-in-america-festival {
       background-image: image-url('projects/website/Budweiser-Made-In-America-Festival.jpg')
     }
-    &.independent-lodging-congress-2014 {
+    &.independent-lodging-congress {
       background-image: image-url('projects/website/Independent-Lodging-Congress.jpg')
     }
     &.spotify-thatsongwhen {
@@ -38,7 +78,7 @@
     &.paprika-restaurant-website {
       background-image: image-url('projects/website/Paprika.jpg')
     }
-    &.michael-kors-wish-list-2014 {
+    &.michael-kors-wishlist {
       background-image: image-url('projects/website/MK-Wishlist-1.jpg')
     }
     &.yo-crawl {

@@ -49,7 +49,7 @@ class Weston.Views.Project extends Backbone.View
     @copy[@getProjectCategory()][@project]
 
   getProjectImageURLs: ->
-    "/assets/project-details/#{@getProjectCategory()}/#{@project}"
+    "http://s3.amazonaws.com/westonbakerdesign/project-details/#{@getProjectCategory()}/#{@project}"
 
   render: ->
     @$el.html(@template())
@@ -66,11 +66,27 @@ class Weston.Views.Project extends Backbone.View
     @$('.single-wide.second').css('background-image', "url(#{@getProjectImageURLs()}/2.jpg)")
     @$('.single-wide.third').css('background-image', "url(#{@getProjectImageURLs()}/3.jpg)")
     i = 4
-    while i <= 7
-      $img = $("<div class='image'></div>")
-      $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i}.jpg)")
+    while i <= @getProjectCopy().numPhotos
+      @appendDoubleWideImage(i) if @getProjectCopy().numPhotos >= i
+      @appendDoubleWideImage(i+1) if @getProjectCopy().numPhotos >= i+1
+      @appendSingleWideImages(i+2) if @getProjectCopy().numPhotos >= i+2
+      @appendSingleWideImages(i+4) if @getProjectCopy().numPhotos >= i+4
+      i += 6
+
+  appendDoubleWideImage: (i) ->
+    $img = $("<div class='image'></div>")
+    $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i}.jpg)")
+    @$('.details').append($img)
+
+  appendSingleWideImages: (i) ->
+    $img = $("<div class='single-wide image left'></div>")
+    $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i}.jpg)")
+    @$('.details').append($img)
+    if i+1 < @getProjectCopy().numPhotos
+      $img = $("<div class='single-wide image right'></div>")
+      $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i+1}.jpg)")
       @$('.details').append($img)
-      i++
+    @$('.details').append("<div class='clear'></div>")
 
   renderCopy: ->
     @$('.copy-container').append("<h1>#{@getProjectCopy().title}</h1>")
