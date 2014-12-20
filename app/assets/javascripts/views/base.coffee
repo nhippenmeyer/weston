@@ -36,8 +36,8 @@ Backbone.View::navigateRight = ->
 
 Backbone.View::setSiblingPages = (pages) ->
   unless pages is false
-    @pageLeft = @navLeftPage() if @navLeftPage
-    @pageRight = @navRightPage() if @navRightPage
+    @pageLeft = @navLeftPage() if @navLeftPage and @navLeftPage() isnt undefined
+    @pageRight = @navRightPage() if @navRightPage and @navRightPage isnt undefined
 
 Backbone.View::reRender = ->
   @setSiblingPages(true)

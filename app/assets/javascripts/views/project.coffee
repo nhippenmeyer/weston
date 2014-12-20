@@ -9,10 +9,32 @@ class Weston.Views.Project extends Backbone.View
     'click .nav-left' : 'navigateLeft'
     'click .nav-right': 'navigateRight'
 
-  navLeftRoute: -> '#projects/cardboard-wall'
-  navRightRoute: -> '#projects/talan-towers'
-  navLeftPage: -> new Weston.Views.Project(project: 'cardboard-wall', pages: false)
-  navRightPage: -> new Weston.Views.Project(project: 'talan-towers', pages: false)
+  navLeftRoute: -> "#projects/#{@leftProjectSlug()}"
+  navRightRoute: -> "#projects/#{@rightProjectSlug()}"
+
+  navLeftPage: ->
+    slug = @leftProjectSlug()
+    if slug then new Weston.Views.Project(project: slug, pages: false) else undefined
+
+  navRightPage: ->
+    slug = @rightProjectSlug()
+    if slug then new Weston.Views.Project(project: slug, pages: false) else undefined
+
+  leftProjectSlug: ->
+    projects = @copy[@getProjectCategory()]
+    i = _.indexOf(Object.keys(projects), @project)
+    if i > 0
+      Object.keys(projects)[i-1]
+    else
+      undefined
+
+  rightProjectSlug: ->
+    projects = @copy[@getProjectCategory()]
+    i = _.indexOf(Object.keys(projects), @project)
+    if i < Object.keys(projects).length - 1
+      Object.keys(projects)[i+1]
+    else
+      undefined
 
   initialize: (opts) ->
     { @project, pages } = opts

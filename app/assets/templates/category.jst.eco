@@ -12,7 +12,7 @@
     </div>
   </div>
   <div class='projects-section'>
-    <div class='projects'></div>
+    <div class='projects'><table></table></div>
     <div class='quote'>
       <div class='nav-left'></div>
       <div class='quote-text'></div>

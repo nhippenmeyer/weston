@@ -17,16 +17,32 @@ class Weston.Views.Category extends Backbone.View
   render: ->
     @$el.html(@layoutTemplate(category: @category))
     @$('.header h1').html(@name)
-    @$('.projects').html(@projectsTemplate())
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
+    @renderQuote()
+    @renderProjects()
+    _.defer => @$('.project').each -> $(this).css('height', $(this).width() * .75)
+    this
 
+  renderQuote: ->
     quote = Weston.Data.Quotes[@category].quote
     author = Weston.Data.Quotes[@category].author
     @$('.quote-text').html("\"#{quote}\"")
     @$('.quote-author').html("- #{author}")
 
-    _.defer => @$('.project').each -> $(this).css('height', $(this).width() * .75)
-    this
+  renderProjects: ->
+    projects = []
+    for slug, copy of Weston.Data.Projects[@category]
+      projects.push("
+        <td class='project #{slug}'>
+          <a href='#projects/#{slug}'>
+            <div class='overlay'></div>
+            <h2 class='title'>#{copy.title}</h2>
+          </a>
+        </td>")
+    i = 0
+    while i < projects.length
+      @$('.projects table').append("<tr>#{projects[i]}#{projects[i+1]}")
+      i += 2
 
   scrollDown: (e) ->
     @$('>.category-content').animate

@@ -67,7 +67,7 @@ Weston.Data.Projects =
       company: "Skidmore, Owings & Merrill LLP"
       role: "Architectural Design"
     "paprika-restaurant-architecture":
-      title: "PaprikaRestaurant"
+      title: "Paprika Restaurant"
       paragraph: "Paprika asked us to redesign the interior of their 4-star restaurant located in New York City's East Village. The desired atmosphere was a combination of a casual wine bar and a speakeasy. The result is a lot of vintage lighting, warm colors and wood framing. Everything was custom built to the designs including the bar, which is made from old wooden wine cases and corks from Italy. "
     "thakher-city":
       title: "Thakher City"
