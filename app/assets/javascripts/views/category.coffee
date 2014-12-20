@@ -30,19 +30,23 @@ class Weston.Views.Category extends Backbone.View
     @$('.quote-author').html("- #{author}")
 
   renderProjects: ->
-    projects = []
+    index = 0
     for slug, copy of Weston.Data.Projects[@category]
-      projects.push("
-        <td class='project #{slug}'>
+      $el = $("
+        <div class='single-wide project #{slug}'>
           <a href='#projects/#{slug}'>
             <div class='overlay'></div>
             <h2 class='title'>#{copy.title}</h2>
           </a>
-        </td>")
-    i = 0
-    while i < projects.length
-      @$('.projects table').append("<tr>#{projects[i]}#{projects[i+1]}")
-      i += 2
+        </div>")
+      if index % 2 is 0
+        $el.addClass('left')
+      else
+        $el.addClass('right')
+      @$('.projects').append($el)
+      @$('.projects').append("<div class='clear'></div>") if index % 2 is 1
+      index += 1
+    @$('.projects').append("<div class='clear'></div>")
 
   scrollDown: (e) ->
     @$('>.category-content').animate
