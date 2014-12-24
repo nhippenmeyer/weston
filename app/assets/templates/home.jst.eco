@@ -44,5 +44,11 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class='logo'></div>
+      <div class='legal'>
+        All contents © Weston Baker Design LLC 2015
+      </div>
+    </footer>
   </div>
 </div>

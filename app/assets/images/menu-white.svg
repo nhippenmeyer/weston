@@ -5,13 +5,13 @@
 	 viewBox="0 0 25 14" enable-background="new 0 0 25 14" xml:space="preserve">
 <g>
 	<g>
-		<rect fill="#ffffff" width="25" height="2"/>
+		<rect fill="#f2f2f2" width="25" height="2"/>
 	</g>
 	<g>
-		<rect y="6" fill="#ffffff" width="25" height="2"/>
+		<rect y="6" fill="#f2f2f2" width="25" height="2"/>
 	</g>
 	<g>
-		<rect y="12" fill="#ffffff" width="25" height="2"/>
+		<rect y="12" fill="#f2f2f2" width="25" height="2"/>
 	</g>
 </g>
 </svg>

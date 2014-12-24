@@ -5,9 +5,9 @@ New York, NY 10022</p>
 <p class='small'>206-669-8601<br/>
 <a href="mailto:studio@westonbaker.com">studio@westonbaker.com</a></p>
 <img src='https://maps.googleapis.com/maps/api/staticmap?center=205+East+59th+st,New+York,NY+10022&zoom=14&size=640x260&scale=2&markers=color:blue|label:W|205+East+59th+st,New+York,NY+10022' width='100%'/>
-<div class='footer'>
+<footer>
   <div class='logo'></div>
   <div class='legal'>
-    All contents © Weston Baker Design LLC 2014
+    All contents © Weston Baker Design LLC 2015
   </div>
-</div>
+</footer>

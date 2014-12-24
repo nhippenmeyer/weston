@@ -6,9 +6,9 @@
 <p>Weston Baker Design is a multidisciplinary design firm specializing in website design, app design, architectural design, branding and graphic design.</p>
 <p>We strategize and ideate based on the complex needs of our clients. With our expertise and available technologies we make those ideas come to life.</p>
 <a href='#work'>See our work</a>
-<div class='footer'>
+<footer>
   <div class='logo'></div>
   <div class='legal'>
-    All contents © Weston Baker Design LLC 2014
+    All contents © Weston Baker Design LLC 2015
   </div>
-</div>
+</footer>
