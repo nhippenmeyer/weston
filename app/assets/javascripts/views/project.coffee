@@ -86,6 +86,8 @@ class Weston.Views.Project extends Backbone.View
       $img = $("<div class='single-wide image right'></div>")
       $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i+1}.jpg)")
       @$('.images').append($img)
+    else
+      @$('.images').append("<div class='single-wide image right empty'></div>")
     @$('.images').append("<div class='clear'></div>")
 
   renderCopy: ->

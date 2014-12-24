@@ -7,8 +7,10 @@
         <div class='text'>Browse Projects</div>
         <div class='icon'></div>
       </div>
-      <div class='header-icon'></div>
-      <div class='header'><h1></h1></div>
+      <div class='header-section'>
+        <div class='header-icon'></div>
+        <div class='header'><h1></h1></div>
+      </div>
     </div>
   </div>
   <div class='projects-section'>

@@ -20,7 +20,8 @@ class Weston.Views.Category extends Backbone.View
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
     @renderQuote()
     @renderProjects()
-    _.defer => @$('.project').each -> $(this).css('height', $(this).width() * .75)
+    _.defer =>
+      @$('.project').each -> $(this).css('height', $(this).width() * .75)
     this
 
   renderQuote: ->

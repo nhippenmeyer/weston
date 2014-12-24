@@ -1,5 +1,16 @@
 .category-page {
   background: #192228;
+  .header-section {
+    opacity: 0;
+    transition: all 1s;
+    &.visible {
+      opacity: 1;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 40px;
+    }
+  }
   .projects-section {
     height: 100%;
   }
@@ -15,7 +26,8 @@
     position: relative;
     &:hover {
       .overlay {
-        background: rgba(0,0,20,.7)
+        background: #111A20;
+        opacity: 0.75;
       }
       .title {
         opacity: 1;
@@ -53,8 +65,8 @@
       image-url('website.jpg');
     .header-icon {
       background-image: image-url('website-appdesign.svg');
-      width: 60px;
-      height: 101px;
+      width: 45px;
+      height: 75px;
     }
   }
   .project {
@@ -101,8 +113,8 @@
       image-url('architecture.jpg');
     .header-icon {
       background-image: image-url('architecture-interiordesign.svg');
-      width: 95px;
-      height: 70px;
+      width: 71px;
+      height: 53px;
     }
   }
   .project {
@@ -140,8 +152,8 @@
       image-url('branding.jpg');
     .header-icon {
       background-image: image-url('branding-graphicdesign.svg');
-      width: 100px;
-      height: 65px;
+      width: 75px;
+      height: 49px;
     }
   }
   .project {

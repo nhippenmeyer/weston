@@ -50,10 +50,10 @@ Weston.Data.Projects =
       company: "Layerframe"
       photos: [1,2,2,2]
       role: "Creative Direction"
-    "yo-crawl":
-      title: "YoCrawl"
-      paragraph: "YoCrawl is a Build Your Own Bar Crawl tool that allows you to choose locations, upload a cover photo and send a packaged invite to your friends. "
-      link: "http://yocrawl.com/"
+    # "yo-crawl":
+    #   title: "YoCrawl"
+    #   paragraph: "YoCrawl is a Build Your Own Bar Crawl tool that allows you to choose locations, upload a cover photo and send a packaged invite to your friends. "
+    #   link: "http://yocrawl.com/"
     "emissary":
       title: "Emissary"
       paragraph: "Emissary is an early-stage NYC-based technology startup with one mission: Make it dead-simple to find and connect with the experts you need. The website is designed in flat design with fresh colors and a clean layout. The site is fully responsive, making it easy and interesting to learn about the company. "
@@ -109,13 +109,15 @@ Weston.Data.Projects =
       paragraph: "Branding for the up and coming musician and DJ needed to be full of life, full of action and power. The music is not afraid to break boundaries, be bold and synthesis old and new in a fresh way. The logo and branding was designed to stay true to these principles. "
       photos: [1,1,1,2,2,1,1,2,1,1,1,1]
     "paprika":
-      title: "Paprkia"
+      title: "Paprika"
       paragraph: "The branding for Paprika Restaurant on St. Marks in Manhattan’s East Village needed to represent a fusion of traditional quality Italian food and a younger new take. The logo plays off of a serif font that suggests traditional qualities, while the clean line and repetitive forms create a more modern aesthetic. "
+      photos: [1,2,2,2,1,1,1,1,1,1]
+    "times-square-billboard":
       title: "Times Square Billboard"
       paragraph: "The billboard, located at the Marriott Marquis at 1535 Broadway, was designed to disguise the construction of what is now the world’s largest and most technologically advanced digital LED screen . The billboard, which is 120’ by 20’ tall on Broadway and wrapping the sides of both 44th and 45th streets, was designed to the theme of the urban jungle. Times square is full of bright lights and screens that intend to grab the visitors attention, however, what is lacking in this space is a place for solitude and calm. Interestingly, green is the only color not found in this urban landscape and the objects standing still are the ones most noticed. "
       company: "VMG Creative"
       role: "Art Direction"
-      photos: [1,2,2,2,1,1,1,1,1,1]
+      photos: [1,2,2,2,2,1,1,2]
     "mission-control":
       title: "Mission Control"
       paragraph: "The goal for the Mission Control Productivity logo was to extract the sole meaning of the company and represent it as accurately as possible. The company is about focusing, taking control, aligning goals and actuality to be most efficient at what one is working on. The logo is designed to represent a simplified and abstracted tool that accomplishes the goal of the company, referencing objects such as a camera aperture, a clock, a compass and other aligning elements. "

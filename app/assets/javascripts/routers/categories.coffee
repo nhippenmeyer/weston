@@ -18,4 +18,5 @@ class Weston.Routers.Categories extends Backbone.Router
 
   showView: ->
     $('#page-region').html(@view.render().el)
+    _.defer => $('#page-region > .category-page > .category-content .header-section').addClass('visible')
     $('header .menu').removeClass('dark')
