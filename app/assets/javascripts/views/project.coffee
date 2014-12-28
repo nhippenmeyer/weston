@@ -82,7 +82,7 @@ class Weston.Views.Project extends Backbone.View
     $img = $("<div class='single-wide image left'></div>")
     $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i}.jpg)")
     @$('.images').append($img)
-    if i+1 < @getProjectCopy().photos.length
+    if i+1 <= @getProjectCopy().photos.length
       $img = $("<div class='single-wide image right'></div>")
       $img.css('background-image', "url(#{@getProjectImageURLs()}/#{i+1}.jpg)")
       @$('.images').append($img)

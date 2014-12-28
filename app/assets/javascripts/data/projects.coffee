@@ -37,7 +37,7 @@ Weston.Data.Projects =
       link: "http://www.spotify-thatsongwhen.com/"
       company: "Layerframe"
       role: "Creative Direction"
-      photos: [1,2,1,1,2,2,2]
+      photos: [1,2,1,1,2,1,1,2]
     "paprika-restaurant-website":
       title: "Paprika Restaurant"
       paragraph: "Paprika is a 4-star restaurant located in the East Village of Manhattan. The website is designed to represent the quality of the atmosphere and food of the restaurant. The site is fully responsive and mobile-friendly. "
@@ -85,7 +85,7 @@ Weston.Data.Projects =
     "cardboard-wall":
       title: "Cardboard Wall"
       paragraph: "The Cardboard Wall is an installation in the entrance windows of the lobby to The Herbert F. Johnson Museum of Fine Art in Ithaca, NY designed by I.M. Pei. The wall, made of thousands of laser cut pieces of cardboard strategically directs vision and creates interesting textures and patterns within the wall. The wall constantly transforms views while simultaneously providing seating and counter space."
-      photos: [1,1,1,1,1,1,1,1,1]
+      photos: [1,1,1,1,1,2,1,1,2]
     "urban-suture":
       title: "Urban Suture"
       paragraph: "The favelas of Rio De Janeiro are almost completely detached from the rest of the city, which is a result of geography, societal and economic differences, and a plethora of other aspects that add to the division of people and neighborhoods. Through the Urban Suture critical entry points within the favelas and beach development are linked through a seamless and unified space that is suspended above the urban fabric in order to maintain the existing communities and enhance connections between them. The form, an adaptation of Brazilian Modernism, is subdivided to create a spatial gradation that responds to the scale and character of the buildings it touches. This unique urban typology provides a place for the beginning of a relationship between the divided favela and beach populations. "
