@@ -58,6 +58,8 @@ li {
   transition: all .5s;
   &.nav-active {
     transform: translate3d(300px,0,0);
+    -webkit-transform: translate3d(300px,0,0);
+    -ms-transform: translate3d(300px,0,0);
   }
 }
 
@@ -100,6 +102,8 @@ li {
   width: 300px;
   height: 100%;
   transform: translate3d(-300px,0,0);
+  -webkit-transform: translate3d(-300px,0,0);
+  -ms-transform: translate3d(-300px,0,0);
   transition: all .5s;
   z-index: 1000;
   position: fixed;
@@ -116,6 +120,10 @@ li {
   .links {
     margin: 0;
     padding: 0;
+    margin-bottom: 75px;
+    position: absolute;
+    overflow: auto;
+    top: 0; right: 0; bottom: 0; left: 0;
     li {
       a {
         padding: 40px;
@@ -355,9 +363,13 @@ footer {
   }
   .content-left {
     transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
   }
   .content-left {
     transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
   }
   .nav-left, .nav-right, .nav-down {
     position: absolute;
