@@ -43,13 +43,14 @@
       transition: all .5s;
       position: relative;
     }
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
       .overlay {
         background: #111A20;
         opacity: 0.75;
       }
       .title {
         opacity: 1;
+        font-size: 17px;
       }
     }
     &:hover {

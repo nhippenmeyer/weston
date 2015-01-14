@@ -13,6 +13,7 @@ class Weston.Views.Category extends Backbone.View
   initialize: (opts = {}) ->
     { pages } = opts
     @setSiblingPages(pages)
+    $(window).resize @resizeImages
 
   render: ->
     @$el.html(@layoutTemplate(category: @category))
@@ -20,8 +21,7 @@ class Weston.Views.Category extends Backbone.View
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
     @renderQuote()
     @renderProjects()
-    _.defer =>
-      @$('.project').each -> $(this).css('height', $(this).width() * .75)
+    _.defer @resizeImages
     this
 
   renderQuote: ->
@@ -48,6 +48,9 @@ class Weston.Views.Category extends Backbone.View
       @$('.projects').append("<div class='clear'></div>") if index % 2 is 1
       index += 1
     @$('.projects').append("<div class='clear'></div>")
+
+  resizeImages: =>
+    @$('.project').each -> $(this).css('height', $(this).width() * .75)
 
   scrollDown: (e) ->
     @$('>.category-content').animate

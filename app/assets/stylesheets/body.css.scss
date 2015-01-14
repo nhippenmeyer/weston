@@ -40,7 +40,7 @@ li {
 
 .single-wide {
   width: 50%;
-  @media(max-width: 600px) {
+  @media(max-width: 800px) {
     width: 100%;
   }
   &.left {
@@ -155,26 +155,26 @@ li {
       width: 33%;
       float: left;
       a {
-        height: 30px;
+        height: 20px;
         display: block;
         margin: auto;
       }
       &:nth-child(1) a {
-        width: 15px;
+        width: 10px;
         background-image: image-url('facebook.svg');
         &:hover {
           background-image: image-url('facebook-white.svg');
         }
       }
       &:nth-child(2) a {
-        width: 37px;
+        width: 26px;
         background-image: image-url('twitter.svg');
         &:hover {
           background-image: image-url('twitter-white.svg');
         }
       }
       &:nth-child(3) a {
-        width: 18px;
+        width: 12px;
         background-image: image-url('tumblr.svg');
         &:hover {
           background-image: image-url('tumblr-white.svg');
@@ -380,6 +380,9 @@ footer {
       font-size: 12px;
       line-height: 18px;
       transition: color .5s;
+      @media(max-width: 800px) {
+        display: none;
+      }
     }
     &:hover {
       cursor: pointer;
@@ -393,6 +396,9 @@ footer {
     background: #1A2329;
     position: relative;
     color: #707C7C;
+    @media(max-width: 800px) {
+      padding: 60px 15%;
+    }
     .quote-text {
       margin-bottom: 24px;
       text-align: left;

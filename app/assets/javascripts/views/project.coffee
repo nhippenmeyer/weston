@@ -39,6 +39,7 @@ class Weston.Views.Project extends Backbone.View
   initialize: (opts) ->
     { @project, pages } = opts
     @setSiblingPages(pages)
+    $(window).resize @resizeImages
 
   getProjectCategory: ->
     for category, projects of @copy
@@ -72,6 +73,7 @@ class Weston.Views.Project extends Backbone.View
       else if size is 2
         @appendDoubleWideImage(i)
         i += 1
+    _.defer @resizeImages
 
   appendDoubleWideImage: (i) ->
     $img = $("<div class='image'></div>")
@@ -89,6 +91,11 @@ class Weston.Views.Project extends Backbone.View
     else
       @$('.images').append("<div class='single-wide image right empty'></div>")
     @$('.images').append("<div class='clear'></div>")
+
+  resizeImages: =>
+    @$('.landing-wrap').css('height', $(window).width() * .5)
+    @$('.image.single-wide').each -> $(this).css('height', $(this).width() * .75)
+    @$('.image:not(.single-wide)').each -> $(this).css('height', $(this).width() * .375)
 
   renderCopy: ->
     @$('.copy-container').append("<h1>#{@getProjectCopy().title}</h1>")

@@ -1,6 +1,6 @@
 .project-page {
   .landing-page {
-    height: 500px;
+    height: auto;
   }
   .landing-wrap {
     background-size: cover;
@@ -15,7 +15,7 @@
     background-size: cover;
     background-position: center center;
     background-color: #192228;
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
       height: 250px;
       &.empty {
         height: 0;
@@ -35,6 +35,9 @@
     text-align: left;
     display: table-cell;
     vertical-align: middle;
+    @media(max-width: 800px) {
+      padding: 15%;
+    }
   }
   h1 {
     text-transform: none;

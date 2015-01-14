@@ -48,9 +48,11 @@
     text-transform: uppercase;
     height: 100%;
     transition: width 1.5s;
+    transition: height 1.5s;
     overflow: hidden;
-    @media(max-width: 600px) {
+    @media(max-width: 800px) {
       width: 100%;
+      height: 34%;
       h1 {
         color: #fff;
       }
@@ -74,6 +76,7 @@
     }
     &.active {
       width: 100%;
+      height: 100%;
       .overlay {
         opacity: 0;
       }
@@ -84,8 +87,10 @@
         opacity: 0;
       }
     }
-    &.inactive {
-      width: 0%;
+    @media(min-width: 800px) {
+      &.inactive {
+        width: 0%;
+      }
     }
   }
   .overlay {
