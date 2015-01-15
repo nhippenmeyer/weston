@@ -28,6 +28,9 @@
   .copy {
     background: white;
     display: table;
+    @media(max-width: 800px) {
+      height: auto;
+    }
   }
   .copy-container {
     padding: 80px;
@@ -36,7 +39,8 @@
     display: table-cell;
     vertical-align: middle;
     @media(max-width: 800px) {
-      padding: 15%;
+      padding: 10% 15%;
+      display: block;
     }
   }
   h1 {
