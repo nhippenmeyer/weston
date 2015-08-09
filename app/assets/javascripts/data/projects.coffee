@@ -7,6 +7,21 @@ Weston.Data.Projects =
       role: "Creative Direction"
       link: "http://spotifyforbrands.com/"
       photos: [1,1,1,1,1,1,1,1,1]
+    "aki-development-website":
+      title: "AKI Development"
+      paragraph: "AKI Development specializes in luxury residential development, including multifamily rentals, mixed-use and condominium properties. Given the quality of their work it was obvious that they required a website that would allow this work to speak for itself. The minimal website is sleek and straight to the point, providing imagery and information as needed in an organized and clean fashion."
+      link: "http://akidevelopment.com/"
+      photos: [1,2,2,1,1]
+    "digital-asset-holdings-website":
+      title: "Digital Asset Holdings"
+      paragraph: "We were asked to do the branding and website design for Digital Asset Holdings. Digital Asset Holdings is a technology company that provides tools that use distributed ledgers to track and settle both digital and mainstream financial assets in a cryptographically secure environment, where counterparty risk is minimized, and settlement times are drastically reduced. The new company required a clean and mobile-friendly website that could briefly explain what they do and who they are. Being in both financial and technology industries, the site needed to be both fresh and professional feeling. The result is a site that is both minimal, contemporary and elegant."
+      link: "http://digitalasset.com/"
+      photos: [1,2,2,1,1]
+    "pippio":
+      title: "Pippio"
+      paragraph: "Pippio is a startup company based in New York and San Francisco that asked us to redesign their website. Inspired by the nature of their work, we created a bright and playful color scheme as well as a few simple illustrations to compliment the sections of the website. The site is fully responsive and efficiently displays the company information. The illustrations are emphasized by smooth animations that load as the user scrolls to each section."
+      link: "https://pippio.com/"
+      photos: [1,1,1,2,2]
     "eagle-point-hotel-partners":
       title: "Eagle Point Hotel Partners"
       paragraph: "Eaglepointhotels.com is a minimal and clean company profile featuring hotel properties around the world. The site is mobile friendly and easy to navigate. The minimal and clean style represents the quality of the company and it's properties. "
@@ -60,42 +75,76 @@ Weston.Data.Projects =
       link: "http://www.emissary.io/"
       photos: [1,1,1,2,2]
   architecture:
+    "hybrid-farm-apartment":
+      title: "Hybrid Farm Apartment Building"
+      paragraph: "The geometry of the building adjusts to the angle of the sun throughout the day. Only the top of the building sees the morning sun because of the height of the surrounding buildings in Chelsea. As the sun comes across the sky to the West, the building twists to evenly distribute daylight throughout the day. The farm terraces are accessible by residents of the apartments on each floor. There is a public observation garden on the top floor and an art gallery on the second floor, both accessible from the High Line."
+      photos: [1,1,1,2,1,1,2]
+    "paprika-restaurant-architecture":
+      title: "Paprika Restaurant"
+      paragraph: "Paprika asked us to redesign the interior of their 4-star restaurant located in New York City's East Village. The desired atmosphere was a combination of a casual wine bar and a speakeasy. The result is a lot of vintage lighting, warm colors and wood framing. Everything was custom built to the designs including the bar, which is made from old wooden wine cases and corks from Italy. "
+      photos: [1,1,1,2,2,2,1,1]
     "talan-towers":
       title: "Talan Towers"
       paragraph: "The Talan Towers will consist of two towers with 26 and 30 floors respectively, and a common three-story podium shopping mall. The tower complex will house Class A international office space, a Ritz-Carlton Hotel and residential apartments. The 118,000 square meter building complex will be the first “green” building in Kazakhstan, using energy-saving technologies, making it compliant with LEED standards. "
       company: "Skidmore, Owings & Merrill LLP"
       role: "Architectural Design"
       photos: [1,1,1,2,2,1,1,1,1,2]
+    "turkcell-campus":
+      title: "Turkcell Campus Masterplan"
+      paragraph: "Our task for the Turkcell Campus Masterplan project was to create various conceptual planning options for the 1 million square foot campus located in Istanbul, Turkey. Four variations of campus masterplans were developed, providing different building distributions and public space designs. "
+      photos: [1,1,1,2,1,1,2,2,1,1,2,1,1,2]
+    "galataport-project":
+      title: "Galataport Project"
+      paragraph: "Galataport Masterplan is a cultural complex in Istanbul that is inspired by the urban block found in the surrounding city. The megablock holds characteristics of Istanbul that are important to how people live and experience the city. The building complex lifts itself off of the ground to provide more public space and a to create unique public zones, such as the interior courtyards, raised plazas and diagonal promenades. These promenades direct the pedestrian views towards major monuments in the city including Hagia Sophia. A port and museum are intermixed into the complex, which is primarily composed of retail and office space. This masterplan will rejuvenate a greatly underutilized area in Istanbul."
+      company: "Skidmore, Owings & Merrill LLP"
+      role: "Architectural Design"
+      photos: [1,2,1,1,1,1,1,1,2]
     "tanjong-pagar-centre":
       title: "Tanjong Pagar Centre"
       paragraph: "Standing at an imposing height of 290 metres, Tanjong Pagar Centre will be Singapore’s tallest building when is slated to be completed in 2016. The over 1.7 million square foot building complex includes Grade A Offices, a retail village, major subway station, Clermont Residence Prestigious Homes, Clermont Singapore Luxury Business Hotel and urban park. "
       company: "Skidmore, Owings & Merrill LLP"
       role: "Architectural Design"
       photos: [1,1,1,2,2,1,1,1,1,1,1]
-    "paprika-restaurant-architecture":
-      title: "Paprika Restaurant"
-      paragraph: "Paprika asked us to redesign the interior of their 4-star restaurant located in New York City's East Village. The desired atmosphere was a combination of a casual wine bar and a speakeasy. The result is a lot of vintage lighting, warm colors and wood framing. Everything was custom built to the designs including the bar, which is made from old wooden wine cases and corks from Italy. "
-      photos: [1,1,1,2,2,2,1,1]
+    "26-12-4th-street":
+      title: "26-12 4th Street"
+      paragraph: "The new apartment building coming to Astoria is minimal and elegant in style and unobtrusive to it's neighbors. The design is inspired by the industrial history that is typical of neighborhoods on the waterfront in New York City. The building boasts a spacious and modern lobby, which uses a combination of dark metal materials and light marbles. The apartment building brings substantial light in through the large casement windows and brightens the interior further with bleached oak wood floors. The penthouse apartment includes a 1,400 square foot terrace with views of Manhattan."
+      photos: [1,1,1,1,1,1,1]
+    "urban-suture":
+      title: "Urban Suture"
+      paragraph: "The favelas of Rio De Janeiro are almost completely detached from the rest of the city, which is a result of geography, societal and economic differences, and a plethora of other aspects that add to the division of people and neighborhoods. Through the Urban Suture critical entry points within the favelas and beach development are linked through a seamless and unified space that is suspended above the urban fabric in order to maintain the existing communities and enhance connections between them. The form, an adaptation of Brazilian Modernism, is subdivided to create a spatial gradation that responds to the scale and character of the buildings it touches. This unique urban typology provides a place for the beginning of a relationship between the divided favela and beach populations. "
+      subtext: "Design Partnership: Eric Suntup"
+      photos: [1,2,1,1,2]
+    "cardboard-wall":
+      title: "Cardboard Wall"
+      paragraph: "The Cardboard Wall is an installation in the entrance windows of the lobby to The Herbert F. Johnson Museum of Fine Art in Ithaca, NY designed by I.M. Pei. The wall, made of thousands of laser cut pieces of cardboard strategically directs vision and creates interesting textures and patterns within the wall. The wall constantly transforms views while simultaneously providing seating and counter space."
+      photos: [1,1,1,1,1,2,1,1,2]
     "thakher-city":
       title: "Thakher City"
       paragraph: "Within two kilometers of AI Haram in Mecca, Thakher City seeks to create a unique and memorable residential and hospitality based environment. The concept plan enhances the pilgrimage experience; improves vehicular and pedestrian mobility; addresses geotechnical and site accessibility issues; and creates a robust, interconnected open space network. Designed to accommodate up to 250,000 guests during peak periods, the design is based on a unified grid pattern that can house a multitude of different parcels and scenarios as well as subtly orientate guests toward Al Haram at all times."
       company: "Skidmore, Owings & Merrill LLP"
       role: "Architectural Design"
       photos: [1,1,1,2,2,2,1,1,2]
-    "cardboard-wall":
+    "architectural-visualization":
       title: "Cardboard Wall"
       paragraph: "The Cardboard Wall is an installation in the entrance windows of the lobby to The Herbert F. Johnson Museum of Fine Art in Ithaca, NY designed by I.M. Pei. The wall, made of thousands of laser cut pieces of cardboard strategically directs vision and creates interesting textures and patterns within the wall. The wall constantly transforms views while simultaneously providing seating and counter space."
-      photos: [1,1,1,1,1,2,1,1,2]
-    "urban-suture":
-      title: "Urban Suture"
-      paragraph: "The favelas of Rio De Janeiro are almost completely detached from the rest of the city, which is a result of geography, societal and economic differences, and a plethora of other aspects that add to the division of people and neighborhoods. Through the Urban Suture critical entry points within the favelas and beach development are linked through a seamless and unified space that is suspended above the urban fabric in order to maintain the existing communities and enhance connections between them. The form, an adaptation of Brazilian Modernism, is subdivided to create a spatial gradation that responds to the scale and character of the buildings it touches. This unique urban typology provides a place for the beginning of a relationship between the divided favela and beach populations. "
-      subtext: "Design Partnership: Eric Suntup"
-      photos: [1,2,1,1,2]
-    "turkcell-campus":
-      title: "Turkcell Campus Masterplan"
-      paragraph: "Our task for the Turkcell Campus Masterplan project was to create various conceptual planning options for the 1 million square foot campus located in Istanbul, Turkey. Four variations of campus masterplans were developed, providing different building distributions and public space designs. "
-      photos: [1,1,1,2,1,1,2,2,1,1,2,1,1,2]
+      photos: [1,2,1,1,2,1,1,2,1,1,2,1,1,1,1,1,1,1,1]
   branding:
+    "digital-asset-holdings-branding":
+      title: "Digital Asset Holdings Branding"
+      paragraph: "The logo for Digital Asset Holdings was designed to visually represent one core concept at the center of the company and what they offer. The symbol is a representation of two elements coming together and creating a trade, which is visualized in the arrow on the right. The three elements are held together in the form of a cube, symbolizing the strength of the company and services. We created two blue colors to compliment the logo design and help establish a presence and visual identity for the company in FinTech industry."
+      photos: [1,1,1,2,2]
+    "a-history-of-flying":
+      title: "A History Of Flying"
+      paragraph: "The proposed campaign for Jordan is a celebration of the history of the brand and centers around the concept that improved performance is the perceived and desired result of the product. The positioning of the shoes to look like butterflies is a not so subtle hint at the value and benefits of the product. The presentation offers a look back into the different species of shoes over time and also playfully shows them coming to life in dynamic compositions of flight."
+      photos: [1,1,1,1,1,2]
+    "zala-branding":
+      title: "ZALA Branding"
+      paragraph: "ZALA presented us with a difficult branding challenge of creating an icon and wordmark that could tell many stories simultaneously in a simple symbol. An extensive research and exploration phase brought about many iconographic elements that became essential to the visual meaning for ZALA. The most important message we needed to convey in the design was that ZALA is a modern tool for searching for, discovering and learning about venues. The solution is a combination of recognizable, yet unique looking symbols representing a compass, location pin and direction pointer arrows."
+      photos: [1,1,1,1,1,1,1]
+    "aki-development-branding":
+      title: "AKI Development Branding"
+      paragraph: "We were asked to create a branding package for AKI Development that would give them a more powerful presence in the real estate development industry. The logo was designed using construction lines, similar to the way a plan is designed in architecture. The lines determined a common set of rules for the geometry of the letters, which resulted in a strong, angular and memorable logo with consistent spacing. With a large real estate development presence in New York City, the company needed a variety of marketing materials including project maps, website, architectural rendering, diagrams, presentation book and more."
+      photos: [1,2,1,1,1,1]
     "turkiss":
       title: "Turkiss"
       paragraph: "Turkiss Restaurant, on popular MacDougal Street in Greenwich Village, needed a logo to represent their young and fun food and atmosphere. The restaurant needed the new branding to relate to the energetic and stylish clientelle of 20-somethings who frequent the area. The logo is poppy, fresh and ties to it’s roots in Istanbul, Turkey."
