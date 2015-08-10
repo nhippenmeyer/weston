@@ -5,7 +5,6 @@ Weston.Data.Projects =
       paragraph: "The Mission: To create a web-based, interactive digital marketing tool for Spotify for Brands that can be used to tell a statistical story in a cool and informative way. The music-themed product was first used on the ground at Cannes Lions 2014.<br/><br/>The Concept: To represent the data using musical elements and interfaces in a way that is on brand with Spotify. Not only does the website bring a cool factor to the representation of data using dynamic mixing boards and records that spin, but also simplifies over 500,000 data entries in a cohesive and fun story."
       company: "Layerframe"
       role: "Creative Direction"
-      link: "http://spotifyforbrands.com/"
       photos: [1,1,1,1,1,1,1,1,1]
     "aki-development-website":
       title: "AKI Development"
@@ -39,7 +38,6 @@ Weston.Data.Projects =
       paragraph: "Budweiser Made in America Festival, founded in 2012 by Jay-Z, is an annual music festival held simultaneously in Philadelphia and Los Angeles. The overall concept of the website is to marry both cities in a way that enhances the brand understanding through the organization of the line-up. This is done by merging the line-ups into what appears to be the American flag. The concept of the flag is emphasized by the animation that occurs when clicking between cities. "
       company: "Layerframe"
       role: "Creative Direction"
-      link: "http://a.madeinamericafest.com/"
       photos: [1,2,1,1,2,2]
     "independent-lodging-congress":
       title: "Independent Lodging Congress 2014"
@@ -61,7 +59,6 @@ Weston.Data.Projects =
     "michael-kors-wishlist":
       title: "Michael Kors Holiday Wish List 2014"
       paragraph: "The Michael Kors Holiday Wish List 2014 website is designed to make creating and sending a Wish List easy and fun. The customer can browse the different product categories and add items to their own Wish List by clicking the heart button. The site is designed to be fresh, bold, and fully responsive. It also allows users to then send the Wish List to themselves via email. "
-      link: "http://wishlist.michaelkors.com/"
       company: "Layerframe"
       photos: [1,2,2,2]
       role: "Creative Direction"
@@ -72,7 +69,6 @@ Weston.Data.Projects =
     "emissary":
       title: "Emissary"
       paragraph: "Emissary is an early-stage NYC-based technology startup with one mission: Make it dead-simple to find and connect with the experts you need. The website is designed in flat design with fresh colors and a clean layout. The site is fully responsive, making it easy and interesting to learn about the company. "
-      link: "http://www.emissary.io/"
       photos: [1,1,1,2,2]
   architecture:
     "hybrid-farm-apartment":
