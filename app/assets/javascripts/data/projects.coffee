@@ -103,7 +103,7 @@ Weston.Data.Projects =
       company: "Skidmore, Owings & Merrill LLP"
       role: "Architectural Design"
       photos: [1,1,1,2,2,1,1,1,1,1,1]
-    "26-12-4th-street":
+    "twentysix-12-4th-street":
       title: "26-12 4th Street"
       paragraph: "The new apartment building coming to Astoria is minimal and elegant in style and unobtrusive to it's neighbors. The design is inspired by the industrial history that is typical of neighborhoods on the waterfront in New York City. The building boasts a spacious and modern lobby, which uses a combination of dark metal materials and light marbles. The apartment building brings substantial light in through the large casement windows and brightens the interior further with bleached oak wood floors. The penthouse apartment includes a 1,400 square foot terrace with views of Manhattan."
       photos: [1,1,1,1,1,1,1]
