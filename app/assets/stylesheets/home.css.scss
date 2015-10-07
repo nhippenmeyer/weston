@@ -1,3 +1,26 @@
+.homepage {
+  .text {
+    padding: 50px;
+    color: black;
+    p {
+      font-size: 36px;
+      font-weight: 100;
+      margin: 20px;
+      font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+    }
+    a {
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }
+  .map {
+    background-image: image-url('homepage-map.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+  }
+}
+
 .page {
   .arrow-wrap {
     position: absolute;
@@ -17,8 +40,17 @@
 }
 
 #page-1 {
-  display: table;
+  .main {
+    display: table;
+    background-image: image-url('homepage-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
   #logo-container {
+    margin-top: 50px;
     display: table-cell;
     vertical-align: middle;
   }
@@ -33,7 +65,7 @@
     font-size: 16px;
     color: #666;
     font-weight: 200;
-    margin: 30px 0;
+    margin-top: 30px;
     letter-spacing: 3px;
   }
 }
@@ -123,7 +155,7 @@
     opacity: 1;
     transition: all .5s;
   }
-  .website {
+  .digital {
     background-image:
       linear-gradient(
         rgba(0, 0, 20, 0.5),
@@ -149,7 +181,7 @@
       height: 35px;
     }
   }
-  .branding {
+  .graphic {
     background-image:
       linear-gradient(
         rgba(0, 0, 20, 0.5),

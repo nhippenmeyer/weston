@@ -1,5 +1,66 @@
 .category-page {
   background: #192228;
+  .category-header {
+    height: 40px;
+    background: black;
+    position: fixed;
+    top: 50px;
+    z-index: 1;
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #aaa;
+    table {
+      width: 100%;
+      height: 100%;
+    }
+    td:not(.padding) {
+      width: 150px;
+    }
+    .icon {
+      width: 25px;
+      height: 25px;
+      display: inline-block;
+      vertical-align: bottom;
+      margin-right: 5px;
+    }
+    a {
+      line-height: 20px;
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
+      &.selected {
+        color: white;
+      }
+    }
+    .digital {
+      .icon {
+        background-image: image-url('digital-nav.svg');
+      }
+      a.selected .icon {
+        background-image: image-url('digital-nav-white.svg');
+      }
+    }
+    .architecture {
+      .icon {
+        background-image: image-url('architecture-nav.svg');
+      }
+      a.selected .icon {
+        background-image: image-url('architecture-nav-white.svg');
+      }
+    }
+    .graphic {
+      .icon {
+        background-image: image-url('graphic-nav.svg');
+      }
+      a.selected .icon {
+        background-image: image-url('graphic-nav-white.svg');
+      }
+    }
+  }
   .header-section {
     opacity: 0;
     transition: all 1s;
@@ -9,6 +70,17 @@
     h1 {
       font-size: 26px;
       line-height: 40px;
+    }
+    .separator {
+      width: 100px;
+      border-bottom: 3px solid white;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    .subheaders div {
+      text-transform: uppercase;
+      margin: 10px 0;
+      font-size: 12px;
     }
   }
   .projects-section {
@@ -65,7 +137,7 @@
   }
 }
 
-#website-category {
+#digital-category {
   >.category-content>.landing-page {
     background-image:
       linear-gradient(
@@ -173,7 +245,7 @@
   }
 }
 
-#branding-category {
+#graphic-category {
   >.category-content>.landing-page {
     background-image:
       linear-gradient(

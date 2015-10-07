@@ -1,4 +1,14 @@
 <div class='category-content'>
+  <div class='category-header'>
+    <table>
+      <tr>
+        <td class='padding'></td>
+        <td class='digital'><a href='#digital'><div class='icon'></div>Digital</a></td>
+        <td class='architecture'><a href='#architecture'><div class='icon'></div>Architecture</a></td>
+        <td class='graphic'><a href='#graphic'><div class='icon'></div>Graphic</a></td>
+        <td class='padding'></td>
+    </table>
+  </div>
   <div class='landing-page'>
     <div class='landing-wrap'>
       <div class='nav-left'></div>
@@ -10,6 +20,8 @@
       <div class='header-section'>
         <div class='header-icon'></div>
         <div class='header'><h1></h1></div>
+        <div class='separator'></div>
+        <div class='subheaders'></div>
       </div>
     </div>
   </div>
@@ -21,11 +33,6 @@
       <div class='quote-author'></div>
       <div class='nav-right'></div>
     </div>
-    <footer>
-      <div class='logo'></div>
-      <div class='legal'>
-        All contents © Weston Baker Design LLC 2015
-      </div>
-    </footer>
+    <div class='footer-container'></div>
   </div>
 </div>

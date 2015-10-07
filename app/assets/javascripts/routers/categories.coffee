@@ -1,22 +1,21 @@
 class Weston.Routers.Categories extends Backbone.Router
   routes:
-    'website'     : 'website'
+    'digital'     : 'digital'
     'architecture': 'architecture'
-    'branding'    : 'branding'
+    'graphic'     : 'graphic'
 
-  website: ->
-    @view = new Weston.Views.CategoriesWebsite
+  digital: ->
+    @view = new Weston.Views.CategoriesDigital
     @showView()
 
   architecture: ->
     @view = new Weston.Views.CategoriesArchitecture
     @showView()
 
-  branding: ->
-    @view = new Weston.Views.CategoriesBranding
+  graphic: ->
+    @view = new Weston.Views.CategoriesGraphic
     @showView()
 
   showView: ->
     $('#page-region').html(@view.render().el)
     _.defer => $('#page-region > .category-page > .category-content .header-section').addClass('visible')
-    $('header .menu').removeClass('dark')

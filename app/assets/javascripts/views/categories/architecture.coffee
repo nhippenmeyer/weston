@@ -2,9 +2,11 @@ class Weston.Views.CategoriesArchitecture extends Weston.Views.Category
 
   id: 'architecture-category'
   category: 'architecture'
-  name: 'Architecture + </br> Interior Design'
+  name: 'Architecture'
+  subheaders: ['Concept & schematic design', 'Interior design',
+               'Masterplanning', 'Architectural visualization']
 
-  navLeftRoute: -> '#website'
-  navRightRoute: -> '#branding'
-  navLeftPage: -> new Weston.Views.CategoriesWebsite(pages: false)
-  navRightPage: -> new Weston.Views.CategoriesBranding(pages: false)
+  navLeftRoute: -> '#digital'
+  navRightRoute: -> '#graphic'
+  navLeftPage: -> new Weston.Views.CategoriesDigital(pages: false)
+  navRightPage: -> new Weston.Views.CategoriesGraphic(pages: false)

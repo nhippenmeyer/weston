@@ -14,7 +14,17 @@
   </div>
   <header>
     <a href='#' class='show-menu'><div class='menu'></div></a>
-    <a href='#' class='logo'><div class='logo-icon'></div></a>
+    <table>
+      <tr>
+        <td class='padding'></td>
+        <td class='work'><a href='#architecture'>Work</a></td>
+        <td class='services'><a href='#services'>Services</a></td>
+        <td class='td-logo'><a href='#' class='logo'><div class='logo-icon'></div></a></td>
+        <td class='clients'><a href='#clients'>Clients</a></td>
+        <td class='contact'><a href='#contact'>Contact</a></td>
+        <td class='padding'></td>
+      </tr>
+    </table>
   </header>
   <div id='page-region'></div>
 </div>

@@ -3,6 +3,7 @@ class Weston.Views.Category extends Backbone.View
   className: 'category-page'
 
   layoutTemplate: JST['category']
+  footerTemplate: JST['footer']
   template: -> ""
 
   events:
@@ -17,7 +18,12 @@ class Weston.Views.Category extends Backbone.View
 
   render: ->
     @$el.html(@layoutTemplate(category: @category))
+    @$('.footer-container').html(@footerTemplate())
     @$('.header h1').html(@name)
+    for subheader in @subheaders
+      @$('.subheaders').append("<div>#{subheader}</div>")
+    $('header .work').addClass('selected').siblings().removeClass('selected')
+    @$(".category-header .#{@category} a").addClass('selected')
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
     @renderQuote()
     @renderProjects()

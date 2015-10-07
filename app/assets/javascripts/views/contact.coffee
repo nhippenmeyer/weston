@@ -5,4 +5,5 @@ class Weston.Views.Contact extends Backbone.View
 
   render: ->
     @$el.html(@template())
+    $('header .contact').addClass('selected').siblings().removeClass('selected')
     this

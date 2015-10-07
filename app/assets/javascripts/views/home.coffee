@@ -1,6 +1,7 @@
 class Weston.Views.Home extends Backbone.View
 
   template: JST['home']
+  footerTemplate: JST['footer']
 
   events: ->
     'click .tile'      : 'clickTile'
@@ -8,6 +9,8 @@ class Weston.Views.Home extends Backbone.View
 
   render: ->
     @$el.html(@template())
+    @$('.footer-container').html(@footerTemplate())
+    $('header td').removeClass('selected')
     this
 
   clickTile: (e) ->
