@@ -1,0 +1,99 @@
+#clients-page {
+  background: #F8F8F8;
+  color: black;
+  .image-1 {
+    background-image: image-url('clients-hero.jpg');
+    height: 600px;
+    background-size: cover;
+    position: relative;
+  }
+  .text {
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+    color: white;
+    font-size: 24px;
+    a {
+      display: block;
+      text-align: right;
+    }
+  }
+  p {
+    margin: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding-bottom: 100px;
+  }
+  td {
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+  }
+  .elysium {
+    background-image: image-url('clients/clients1.jpg');
+  }
+  .pippio {
+    background-image: image-url('clients/clients2.jpg');
+  }
+  .digitalassets {
+    background-image: image-url('clients/clients3.jpg');
+  }
+  .touchtunes {
+    background-image: image-url('clients/clients4.jpg');
+  }
+  .emissary {
+    background-image: image-url('clients/clients5.jpg');
+  }
+  .spotify {
+    background-image: image-url('clients/clients6.jpg');
+  }
+  .aki {
+    background-image: image-url('clients/clients7.jpg');
+  }
+  .muse {
+    background-image: image-url('clients/clients8.jpg');
+  }
+  .lumifi {
+    background-image: image-url('clients/clients9.jpg');
+  }
+  .quovo {
+    background-image: image-url('clients/clients10.jpg');
+  }
+  .eaglepoint {
+    background-image: image-url('clients/clients12.jpg');
+  }
+  .missioncontrol {
+    background-image: image-url('clients/clients13.jpg');
+  }
+  .zala {
+    background-image: image-url('clients/clients14.jpg');
+  }
+  .filament {
+    background-image: image-url('clients/clients15.jpg');
+  }
+  .saa {
+    background-image: image-url('clients/clients16.jpg');
+  }
+  .cafe {
+    background-image: image-url('clients/clients17.jpg');
+  }
+  .vitaminchick {
+    background-image: image-url('clients/clients18.jpg');
+  }
+  @media(max-width: 930px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    td {
+      margin: 10px auto;
+    }
+    .text {
+      font-size: 16px;
+    }
+  }
+}

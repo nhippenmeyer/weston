@@ -55,18 +55,11 @@
     vertical-align: middle;
   }
   #logo {
-    background-image: image-url('logo-main.svg');
+    background-image: image-url('logo-home.png');
+    background-size: cover;
     width: 200px;
-    height: 153px;
+    height: 133px;
     margin: auto;
-  }
-  h1 {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #666;
-    font-weight: 200;
-    margin-top: 30px;
-    letter-spacing: 3px;
   }
 }
 

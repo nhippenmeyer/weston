@@ -25,6 +25,11 @@
       </div>
     </div>
   </div>
+  <div class='description'>
+    <div class='icon'></div>
+    <p></p>
+    <a href='#services'>Learn more about our services</a>
+  </div>
   <div class='projects-section'>
     <div class='projects'></div>
     <div class='quote'>

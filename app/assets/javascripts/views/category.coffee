@@ -25,10 +25,14 @@ class Weston.Views.Category extends Backbone.View
     $('header .work').addClass('selected').siblings().removeClass('selected')
     @$(".category-header .#{@category} a").addClass('selected')
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
+    @renderDescription()
     @renderQuote()
     @renderProjects()
     _.defer @resizeImages
     this
+
+  renderDescription: ->
+    @$('.description p').html(Weston.Data.Descriptions[@category])
 
   renderQuote: ->
     quote = Weston.Data.Quotes[@category].quote
@@ -41,10 +45,11 @@ class Weston.Views.Category extends Backbone.View
     for slug, copy of Weston.Data.Projects[@category]
       $el = $("
         <div class='single-wide project #{slug}'>
-          <a href='#projects/#{slug}'>
-            <div class='overlay'></div>
+          <div class='overlay'></div>
+          <div class='text-container'>
             <h2 class='title'>#{copy.title}</h2>
-          </a>
+            <a href='#projects/#{slug}'>View Project</a>
+          </div>
         </div>")
       if index % 2 is 0
         $el.addClass('left')
@@ -60,5 +65,5 @@ class Weston.Views.Category extends Backbone.View
 
   scrollDown: (e) ->
     @$('>.category-content').animate
-      scrollTop: @$('>.category-content .landing-page').height()
+      scrollTop: @$('>.category-content .landing-page').height() - 75
     , 500

@@ -1,0 +1,34 @@
+<div class='image-1'>
+  <div class='text'>
+    <a href='http://westonbaker.com'>westonbaker.com</a>
+    <a href='http://facebook.com/westonbakerdesign'>facebook.com/westonbakerdesign</a>
+  </div>
+</div>
+<p>Some of our clients</p>
+<table>
+  <tr>
+    <td class='elysium'></td>
+    <td class='pippio'></td>
+    <td class='digitalassets'></td>
+  <tr>
+    <td class='touchtunes'></td>
+    <td class='emissary'></td>
+    <td class='spotify'></td>
+  <tr>
+    <td class='aki'></td>
+    <td class='muse'></td>
+    <td class='lumifi'></td>
+  <tr>
+    <td class='quovo'></td>
+    <td class='eaglepoint'></td>
+    <td class='missioncontrol'></td>
+  <tr>
+    <td class='zala'></td>
+    <td class='filament'></td>
+    <td class='saa'></td>
+  <tr>
+    <td class='cafe'></td>
+    <td class='vitaminchick'></td>
+  </tr>
+</table>
+<div class='footer-container'></div>

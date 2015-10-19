@@ -1,0 +1,106 @@
+#services-page {
+  color: black;
+  .image-1 {
+    background-image: image-url('services-hero.jpg');
+    background-size: cover;
+    height: 400px;
+  }
+  .text {
+    padding: 50px;
+    .about-us {
+      text-transform: uppercase;
+      margin: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 100;
+      margin: 20px;
+      font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+      text-transform: none;
+    }
+    @media(max-width: 800px) {
+      h1 {
+        font-size: 18px;
+      }
+    }
+    p {
+      margin: 20px;
+    }
+  }
+  .image-2 {
+    background-image: image-url('services-process.png');
+    background-size: cover;
+    height: 400px;
+  }
+  .category-links {
+    background: #F8F8F8;
+    padding: 50px;
+    table {
+      margin: auto;
+    }
+    p {
+      text-transform: uppercase;
+      font-size: 12px;
+      margin: 20px;
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin: auto;
+    }
+    .digital {
+      .icon {
+        background-image: image-url('digital-nav.svg');
+      }
+    }
+    .architecture {
+      .icon {
+        background-image: image-url('architecture-nav.svg');
+      }
+    }
+    .graphic {
+      .icon {
+        background-image: image-url('graphic-nav.svg');
+      }
+    }
+    ul {
+      font-size: 12px;
+    }
+    li {
+      margin: 5px 0;
+    }
+    a {
+      background: #7980FF;
+      text-transform: uppercase;
+      padding: 20px 20px;
+      color: white;
+      display: block;
+      margin: 0 50px;
+      font-size: 14px;
+    }
+  }
+  @media(min-width: 800px) {
+    table {
+      width: 800px;
+    }
+    td {
+      width: 33%;
+    }
+    ul {
+      height: 90px;
+    }
+  }
+  @media(max-width: 800px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    td {
+      margin-bottom: 50px;
+    }
+    .links {
+      a {
+        margin: 0 15%;
+      }
+    }
+  }
+}
