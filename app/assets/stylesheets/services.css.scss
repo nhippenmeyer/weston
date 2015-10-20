@@ -9,13 +9,14 @@
     padding: 50px;
     .about-us {
       text-transform: uppercase;
+      font-size: 12px;
       margin: 20px;
     }
     h1 {
       font-size: 36px;
       font-weight: 100;
       margin: 20px;
-      font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+      font-family: Fira-sans;
       text-transform: none;
     }
     @media(max-width: 800px) {
@@ -64,7 +65,8 @@
       }
     }
     ul {
-      font-size: 12px;
+      font-size: 10px;
+      text-transform: uppercase;
     }
     li {
       margin: 5px 0;
@@ -72,11 +74,12 @@
     a {
       background: #7980FF;
       text-transform: uppercase;
-      padding: 20px 20px;
+      padding: 12px 12px;
       color: white;
       display: block;
       margin: 0 50px;
-      font-size: 14px;
+      font-size: 12px;
+      font-weight: bold;
     }
   }
   @media(min-width: 800px) {
