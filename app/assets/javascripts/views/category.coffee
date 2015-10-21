@@ -17,13 +17,15 @@ class Weston.Views.Category extends Backbone.View
     $(window).resize @resizeImages
 
   render: ->
+    super
     @$el.html(@layoutTemplate(category: @category))
     @$('.footer-container').html(@footerTemplate())
     @$('.header h1').html(@name)
     for subheader in @subheaders
       @$('.subheaders').append("<div>#{subheader}</div>")
     $('header .work').addClass('selected').siblings().removeClass('selected')
-    @$(".category-header .#{@category} a").addClass('selected')
+    $('.category-header').addClass('visible')
+    $('.nav').data('page', 'work')
     @renderLeftRightPages(@pageLeft?.name, @pageRight?.name) if @pageLeft or @pageRight
     @renderDescription()
     @renderQuote()

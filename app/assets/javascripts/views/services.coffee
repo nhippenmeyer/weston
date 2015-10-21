@@ -5,6 +5,7 @@ class Weston.Views.Services extends Backbone.View
   footerTemplate: JST['footer']
 
   render: ->
+    super
     @$el.html(@template())
     @$('.footer-container').html(@footerTemplate())
     $('header .services').addClass('selected').siblings().removeClass('selected')

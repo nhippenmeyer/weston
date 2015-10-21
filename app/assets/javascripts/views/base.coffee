@@ -36,3 +36,7 @@ Backbone.View::setSiblingPages = (pages) ->
 Backbone.View::reRender = ->
   @setSiblingPages(true)
   @render()
+
+Backbone.View::render = ->
+  $('.nav').data('page', '')
+  $('.category-header').removeClass('visible')

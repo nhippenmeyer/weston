@@ -16,39 +16,45 @@
       </div>
     </div>
     <div id='page-2' class='page'>
-      <div class='digital tile' data-route='digital'>
-        <div class='overlay'></div>
-        <div class='content'>
-          <div class='container'>
-            <div class='header-wrap'>
-              <div class='icon'></div>
-              <h1>Digital</h1>
+      <a href='#digital'>
+        <div class='digital tile' data-route='digital'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <div class='container'>
+              <div class='header-wrap'>
+                <div class='icon'></div>
+                <h1>Digital</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class='architecture tile' data-route='architecture'>
-        <div class='overlay'></div>
-        <div class='content'>
-          <div class='container'>
-            <div class='header-wrap'>
-              <div class='icon'></div>
-              <h1>Architecture</h1>
+      </a>
+      <a href='#architecture'>
+        <div class='architecture tile' data-route='architecture'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <div class='container'>
+              <div class='header-wrap'>
+                <div class='icon'></div>
+                <h1>Architecture</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class='graphic tile' data-route='graphic'>
-        <div class='overlay'></div>
-        <div class='content'>
-          <div class='container'>
-            <div class='header-wrap'>
-              <div class='icon'></div>
-              <h1>Graphic</h1>
+      </a>
+      <a href='#graphic'>
+        <div class='graphic tile' data-route='graphic'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <div class='container'>
+              <div class='header-wrap'>
+                <div class='icon'></div>
+                <h1>Graphic</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
     <div class='text'>
       <p>We're in Soho!</p>

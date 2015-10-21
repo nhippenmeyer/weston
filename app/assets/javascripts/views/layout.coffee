@@ -10,6 +10,11 @@ class Weston.Views.Layout extends Backbone.View
 
   render: ->
     @$el.html(@template())
+    @$('.nav .work').mouseover =>
+      @$('.category-header').addClass('visible')
+    @$('.category-header').mouseleave =>
+      unless @$('.nav').data('page') is 'work'
+        @$('.category-header').removeClass('visible')
     this
 
   showMenu: (e) ->

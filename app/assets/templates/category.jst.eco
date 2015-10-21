@@ -1,14 +1,4 @@
 <div class='category-content'>
-  <div class='category-header'>
-    <table>
-      <tr>
-        <td class='padding'></td>
-        <td class='digital'><a href='#digital'><div class='icon'></div>Digital</a></td>
-        <td class='architecture'><a href='#architecture'><div class='icon'></div>Architecture</a></td>
-        <td class='graphic'><a href='#graphic'><div class='icon'></div>Graphic</a></td>
-        <td class='padding'></td>
-    </table>
-  </div>
   <div class='landing-page'>
     <div class='landing-wrap'>
       <div class='nav-left'></div>
