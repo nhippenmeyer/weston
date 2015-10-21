@@ -1,0 +1,102 @@
+#clients-page {
+  background: #F8F8F8;
+  color: black;
+  .image-1 {
+    background-image: image-url('clients-hero.jpg');
+    height: 600px;
+    background-size: cover;
+    position: relative;
+  }
+  .text {
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+    color: white;
+    font-size: 24px;
+    a {
+      display: block;
+      text-align: right;
+    }
+  }
+  p {
+    margin: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding-bottom: 100px;
+  }
+  td {
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+  }
+  .clients1 {
+    background-image: image-url('clients/clients1.jpg');
+  }
+  .clients2 {
+    background-image: image-url('clients/clients2.jpg');
+  }
+  .clients3 {
+    background-image: image-url('clients/clients3.jpg');
+  }
+  .clients4 {
+    background-image: image-url('clients/clients4.jpg');
+  }
+  .clients5 {
+    background-image: image-url('clients/clients5.jpg');
+  }
+  .clients6 {
+    background-image: image-url('clients/clients6.jpg');
+  }
+  .clients7 {
+    background-image: image-url('clients/clients7.jpg');
+  }
+  .clients8 {
+    background-image: image-url('clients/clients8.jpg');
+  }
+  .clients9 {
+    background-image: image-url('clients/clients9.jpg');
+  }
+  .clients10 {
+    background-image: image-url('clients/clients10.jpg');
+  }
+  .clients11 {
+    background-image: image-url('clients/clients11.jpg');
+  }
+  .clients12 {
+    background-image: image-url('clients/clients12.jpg');
+  }
+  .clients13 {
+    background-image: image-url('clients/clients13.jpg');
+  }
+  .clients14 {
+    background-image: image-url('clients/clients14.jpg');
+  }
+  .clients15 {
+    background-image: image-url('clients/clients15.jpg');
+  }
+  .clients16 {
+    background-image: image-url('clients/clients16.jpg');
+  }
+  .clients17 {
+    background-image: image-url('clients/clients17.jpg');
+  }
+  .clients18 {
+    background-image: image-url('clients/clients18.jpg');
+  }
+  @media(max-width: 930px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    td {
+      margin: 10px auto;
+    }
+    .text {
+      font-size: 16px;
+    }
+  }
+}

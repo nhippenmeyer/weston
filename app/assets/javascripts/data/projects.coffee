@@ -1,7 +1,5 @@
 Weston.Data.Projects =
-  website:
-
-
+  digital:
     "spotify-discovery-tool":
       title: "Spotify for Brands Discovery Tool"
       paragraph: "The Mission: To create a web-based, interactive digital marketing tool for Spotify for Brands that can be used to tell a statistical story in a cool and informative way. The music-themed product was first used on the ground at Cannes Lions 2014.<br/><br/>The Concept: To represent the data using musical elements and interfaces in a way that is on brand with Spotify. Not only does the website bring a cool factor to the representation of data using dynamic mixing boards and records that spin, but also simplifies over 500,000 data entries in a cohesive and fun story."
@@ -127,7 +125,7 @@ Weston.Data.Projects =
       paragraph: "In addition to our creative services we also offer architectural visualizations. We often produce full marketing packages that include branding, marketing materials, websites and brochures along with the renderings. In addition to all marketing materials we also frequently create the architectural designs for the renderings as well, which we've found helps clients convey a cohesive visual understanding of the design. The visualization of architecture and product designs can be executed in various forms of graphic representation. We produce a large quantity of realistic perspective renderings in addition to axon renderings, diagrams, presentation plans, maps and more."
       link: "http://www.wbdvisualizations.com/"
       photos: [1,2,1,1,2,1,1,2,1,1,2,1,1,1,1,1,1,1,1]
-  branding:
+  graphic:
     "digital-asset-holdings-branding":
       title: "Digital Asset Holdings Branding"
       paragraph: "The logo for Digital Asset Holdings was designed to visually represent one core concept at the center of the company and what they offer. The symbol is a representation of two elements coming together and creating a trade, which is visualized in the arrow on the right. The three elements are held together in the form of a cube, symbolizing the strength of the company and services. We created two blue colors to compliment the logo design and help establish a presence and visual identity for the company in FinTech industry."

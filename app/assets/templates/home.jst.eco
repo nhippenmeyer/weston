@@ -1,55 +1,67 @@
-<div id='page-content'>
+<div id='page-content' class='homepage'>
   <div class='container'>
-    <div id='page-1' class='page'>
-      <div id='logo-container'>
-        <div id='logo'></div>
-        <h1>Weston Baker Design</h1>
+    <div id='page-1'>
+      <div class='main'>
+        <div id='logo-container'>
+          <div id='logo'></div>
+        </div>
+        <div class='arrow-wrap'>
+          <div class='down-arrow'></div>
+        </div>
       </div>
-      <div class='arrow-wrap'>
-        <div class='down-arrow'></div>
+      <div class='text'>
+        <p>Weston Baker Design is a multidisciplinary studio.</p>
+        <p>We speciaize in creative direction and design.</p>
+        <a href='#work'>Learn More</a>
       </div>
     </div>
-    <div id='page-2' class='page'>
-      <div class='website tile' data-route='website'>
-        <div class='overlay'></div>
-        <div class='content'>
-          <div class='container'>
-            <div class='header-wrap'>
-              <div class='icon'></div>
-              <h1>Website + <br/> App Design</h1>
+    <div id='page-2'>
+      <a href='#digital'>
+        <div class='digital tile' data-route='digital'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <div class='container'>
+              <div class='header-wrap'>
+                <div class='icon'></div>
+                <h1>Digital</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class='architecture tile' data-route='architecture'>
-        <div class='overlay'></div>
-        <div class='content'>
-          <div class='container'>
-            <div class='header-wrap'>
-              <div class='icon'></div>
-              <h1>Architecture +  <br/> Interior Design</h1>
+      </a>
+      <a href='#architecture'>
+        <div class='architecture tile' data-route='architecture'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <div class='container'>
+              <div class='header-wrap'>
+                <div class='icon'></div>
+                <h1>Architecture</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class='branding tile' data-route='branding'>
-        <div class='overlay'></div>
-        <div class='content'>
-          <div class='container'>
-            <div class='header-wrap'>
-              <div class='icon'></div>
-              <h1>Graphic Design <br/> + Branding</h1>
+      </a>
+      <a href='#graphic'>
+        <div class='graphic tile' data-route='graphic'>
+          <div class='overlay'></div>
+          <div class='content'>
+            <div class='container'>
+              <div class='header-wrap'>
+                <div class='icon'></div>
+                <h1>Graphic</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
+    <div class='text'>
+      <p>We're in SoHo!</p>
+      <a href='#contact'>Get in touch</a>
+    </div>
+    <div class='map'></div>
     <div class='clear'></div>
-    <footer>
-      <div class='logo'></div>
-      <div class='legal'>
-        All contents © Weston Baker Design LLC 2015
-      </div>
-    </footer>
+    <div class='footer-container'></div>
   </div>
 </div>

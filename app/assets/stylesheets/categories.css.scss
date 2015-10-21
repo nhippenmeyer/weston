@@ -1,14 +1,21 @@
 .category-page {
   background: #192228;
-  .header-section {
-    opacity: 0;
-    transition: all 1s;
-    &.visible {
-      opacity: 1;
+  .description {
+    background: white;
+    color: black;
+    padding: 50px 20%;
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin: auto;
     }
-    h1 {
-      font-size: 26px;
-      line-height: 40px;
+    a {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 50px;
+      letter-spacing: 2px;
+      display: block;
     }
   }
   .projects-section {
@@ -21,32 +28,56 @@
     }
   }
   .project {
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
     position: relative;
+    display: table;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: background-size 0.3s;
+    &:hover {
+      background-size: 105% 105%;
+      .title {
+        top: 0;
+        opacity: 1;
+        transition: top 0.5s;
+      }
+    }
     .overlay {
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
-      transition: all .5s;
+      transition: all .35s;
     }
-    a {
-      width: 100%;
-      height: 100%;
-      display: table;
-    }
-    .title {
+    .text-container {
       display: table-cell;
       vertical-align: middle;
       opacity: 0;
-      width: 100%;
-      margin: 0;
-      transition: all .5s;
+      transition: all .6s;
+    }
+    .title, a {
       position: relative;
+    }
+    .title {
+      margin-bottom: 50px;
+      top: 20px;
+      opacity: 0;
+    }
+    a {
+      background: white;
+      color: black;
+      padding: 10px 50px;
+      transition: background 0.3s;
+      &:hover {
+        background: #CCC;
+      }
     }
     @media(max-width: 800px) {
       .overlay {
-        background: #111A20;
-        opacity: 0.75;
+        display: none;
+      }
+      .text-container {
+        display: none;
       }
       .title {
         opacity: 1;
@@ -56,16 +87,19 @@
     &:hover {
       .overlay {
         background: #111A20;
-        opacity: 0.75;
+        opacity: 0.5;
       }
-      .title {
+      .text-container {
         opacity: 1;
       }
     }
   }
+  .quote .nav-left :hover, .quote .nav-right :hover {
+    color: black;
+  }
 }
 
-#website-category {
+#digital-category {
   >.category-content>.landing-page {
     background-image:
       linear-gradient(
@@ -78,6 +112,9 @@
       width: 45px;
       height: 75px;
     }
+  }
+  .description .icon {
+    background-image: image-url('digital-description.svg');
   }
   .project {
     &.spotify-discovery-tool {
@@ -136,6 +173,9 @@
       height: 53px;
     }
   }
+  .description .icon {
+    background-image: image-url('architecture-description.svg');
+  }
   .project {
     &.talan-towers {
       background-image: image-url('projects/architecture/Talan-Towers.jpg')
@@ -173,7 +213,7 @@
   }
 }
 
-#branding-category {
+#graphic-category {
   >.category-content>.landing-page {
     background-image:
       linear-gradient(
@@ -186,6 +226,9 @@
       width: 75px;
       height: 49px;
     }
+  }
+  .description .icon {
+    background-image: image-url('graphic-description.svg');
   }
   .project {
     &.turkiss {

@@ -1,0 +1,54 @@
+<div class='image-1'></div>
+<div class='text'>
+  <div class='about-us'>About Us</div>
+  <h1>Weston Baker Design is a multidisciplinary studio.<br/>We specialize in creative direction and design</h1>
+  <p>We believe that design is a process of understanding and creative problemsolving.<br/>Regardless of style or industry, our designs strategically drive a change in thinking, feeling and interacting.
+</div>
+<div class='category-links'>
+  <p>We offer</p>
+  <table>
+    <tr>
+      <td class='digital'>
+        <div class='box'>
+          <div class='icon'></div>
+          <h2>Digital</h2>
+          <ul>
+            <li>Website design & development</li>
+            <li>App design & development</li>
+            <li>User experience & user interface design</li>
+            <li>Asset strategy & creation</li>
+          </ul>
+          <a href='#digital'>View Projects</a>
+        </div>
+      </td>
+      <td class='architecture'>
+        <div class='box'>
+          <div class='icon'></div>
+          <h2>Architecture</h2>
+          <ul>
+            <li>Concept & schematic design</li>
+            <li>Interior design</li>
+            <li>Masterplanning</li>
+            <li>Architectural visualization</li>
+          </ul>
+          <a href='#architecture'>View Projects</a>
+        </div>
+      </td>
+      <td class='graphic'>
+        <div class='box'>
+          <div class='icon'></div>
+          <h2>Graphic</h2>
+          <ul>
+            <li>Graphic design</li>
+            <li>Branding</li>
+            <li>Marketing & advertising</li>
+          </ul>
+          <a href='#graphic'>View Projects</a>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class='image-2'></div>
+<div class='footer-container'></div>
+`

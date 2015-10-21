@@ -16,3 +16,4 @@
 /tmp
 
 app/assets/images/project-details
+*.DS_Store

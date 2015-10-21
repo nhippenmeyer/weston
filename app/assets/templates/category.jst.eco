@@ -10,8 +10,15 @@
       <div class='header-section'>
         <div class='header-icon'></div>
         <div class='header'><h1></h1></div>
+        <div class='separator'></div>
+        <div class='subheaders'></div>
       </div>
     </div>
+  </div>
+  <div class='description'>
+    <div class='icon'></div>
+    <p></p>
+    <a href='#services'>Learn more about our services</a>
   </div>
   <div class='projects-section'>
     <div class='projects'></div>
@@ -21,11 +28,6 @@
       <div class='quote-author'></div>
       <div class='nav-right'></div>
     </div>
-    <footer>
-      <div class='logo'></div>
-      <div class='legal'>
-        All contents © Weston Baker Design LLC 2015
-      </div>
-    </footer>
+    <div class='footer-container'></div>
   </div>
 </div>

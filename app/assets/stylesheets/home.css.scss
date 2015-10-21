@@ -1,3 +1,33 @@
+.homepage {
+  .text {
+    padding: 100px;
+    color: black;
+    @media(max-width: 800px) {
+      padding: 20px;
+      font-size: 14px;
+    }
+    p {
+      font-size: 36px;
+      font-weight: 100;
+      margin: 20px;
+      line-height: 30px;
+    }
+    a {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 3;
+      letter-spacing: 3px;
+    }
+  }
+  .map {
+    background-image: image-url('homepage-map.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+  }
+}
+
 .page {
   .arrow-wrap {
     position: absolute;
@@ -17,40 +47,43 @@
 }
 
 #page-1 {
-  display: table;
+  .main {
+    display: table;
+    background-image: image-url('homepage-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
   #logo-container {
+    margin-top: 50px;
     display: table-cell;
     vertical-align: middle;
   }
   #logo {
-    background-image: image-url('logo-main.svg');
-    width: 200px;
-    height: 153px;
+    background-image: image-url('logo-home.png');
+    background-size: cover;
+    width: 270px;
+    height: 180px;
     margin: auto;
-  }
-  h1 {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #666;
-    font-weight: 200;
-    margin: 30px 0;
-    letter-spacing: 3px;
   }
 }
 
 #page-2 {
+  height: 85%;
   .tile {
+    height: 100%;
     width: 33.33%;
     background-size: cover;
     background-position: center center;
     position: relative;
     float: left;
     text-transform: uppercase;
-    height: 100%;
-    transition: width 1.5s;
+    transition: width 1s;
     overflow: hidden;
     @media(max-width: 800px) {
-      transition: height 1.5s;
+      transition: height 1s;
       width: 100%;
       height: 34%;
       h1 {
@@ -68,7 +101,7 @@
         color: #fff;
       }
       .overlay {
-        opacity: 0.2;
+        opacity: 0.1;
       }
       .icon {
         opacity: 1;
@@ -97,8 +130,8 @@
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     background: black;
-    opacity: .7;
-    transition: .5s;
+    opacity: .55;
+    transition: .4s;
   }
   .container {
     display: table;
@@ -123,7 +156,7 @@
     opacity: 1;
     transition: all .5s;
   }
-  .website {
+  .digital {
     background-image:
       linear-gradient(
         rgba(0, 0, 20, 0.5),
@@ -149,7 +182,7 @@
       height: 35px;
     }
   }
-  .branding {
+  .graphic {
     background-image:
       linear-gradient(
         rgba(0, 0, 20, 0.5),

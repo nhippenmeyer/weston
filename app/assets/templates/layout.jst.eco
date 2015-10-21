@@ -3,7 +3,8 @@
     <ul class='links'>
       <li><a href='#'>Home</a></li>
       <li><a href='#work'>Work</a></li>
-      <li><a href='#about'>About</a></li>
+      <li><a href='#services'>Services</a></li>
+      <li><a href='#clients'>Clients</a></li>
       <li><a href='#contact'>Contact</a></li>
     </ul>
     <ul class='social-media-links'>
@@ -14,7 +15,30 @@
   </div>
   <header>
     <a href='#' class='show-menu'><div class='menu'></div></a>
-    <a href='#' class='logo'><div class='logo-icon'></div></a>
+    <div class='nav'>
+      <table>
+        <tr>
+          <td class='padding'></td>
+          <td class='work'><a href='#digital'>Work</a></td>
+          <td class='services'><a href='#services'>Services</a></td>
+          <td class='td-logo'><a href='#' class='logo'><div class='logo-icon'></div></a></td>
+          <td class='clients'><a href='#clients'>Clients</a></td>
+          <td class='contact'><a href='#contact'>Contact</a></td>
+          <td class='padding'></td>
+        </tr>
+      </table>
+    </div>
+    <div class='category-header'>
+      <table>
+        <tr>
+          <td class='padding'></td>
+          <td class='digital'><a href='#digital'><div class='icon'></div>Digital</a></td>
+          <td class='architecture'><a href='#architecture'><div class='icon'></div>Architecture</a></td>
+          <td class='graphic'><a href='#graphic'><div class='icon'></div>Graphic</a></td>
+          <td class='padding'></td>
+        </tr>
+      </table>
+    </div>
   </header>
   <div id='page-region'></div>
 </div>
