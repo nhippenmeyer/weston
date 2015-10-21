@@ -28,13 +28,22 @@
     }
   }
   .project {
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
     position: relative;
     display: table;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
+    transition: background-size 0.3s;
+    &:hover {
+      background-size: 105% 105%;
+      .title {
+        top: 0;
+        opacity: 1;
+        transition: top 0.5s;
+      }
+    }
     .overlay {
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
@@ -51,16 +60,24 @@
     }
     .title {
       margin-bottom: 50px;
+      top: 20px;
+      opacity: 0;
     }
     a {
       background: white;
       color: black;
       padding: 10px 50px;
+      transition: background 0.3s;
+      &:hover {
+        background: #CCC;
+      }
     }
     @media(max-width: 800px) {
       .overlay {
-        background: #111A20;
-        opacity: 0.75;
+        display: none;
+      }
+      .text-container {
+        display: none;
       }
       .title {
         opacity: 1;

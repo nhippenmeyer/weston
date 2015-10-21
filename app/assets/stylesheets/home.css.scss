@@ -1,7 +1,11 @@
 .homepage {
   .text {
-    padding: 50px;
+    padding: 100px;
     color: black;
+    @media(max-width: 800px) {
+      padding: 20px;
+      font-size: 14px;
+    }
     p {
       font-size: 36px;
       font-weight: 100;
@@ -67,14 +71,15 @@
 }
 
 #page-2 {
+  height: 85%;
   .tile {
+    height: 100%;
     width: 33.33%;
     background-size: cover;
     background-position: center center;
     position: relative;
     float: left;
     text-transform: uppercase;
-    height: 85%;
     transition: width 1s;
     overflow: hidden;
     @media(max-width: 800px) {

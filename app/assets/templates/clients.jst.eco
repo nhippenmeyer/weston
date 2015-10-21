@@ -7,28 +7,34 @@
 <p>Some of our clients</p>
 <table>
   <tr>
-    <td class='elysium'></td>
-    <td class='pippio'></td>
-    <td class='digitalassets'></td>
+    <td class='clients1'></td>
+    <td class='clients2'></td>
+    <td class='clients3'></td>
+  </tr>
   <tr>
-    <td class='touchtunes'></td>
-    <td class='emissary'></td>
-    <td class='spotify'></td>
+    <td class='clients4'></td>
+    <td class='clients5'></td>
+    <td class='clients6'></td>
+  </tr>
   <tr>
-    <td class='aki'></td>
-    <td class='muse'></td>
-    <td class='lumifi'></td>
+    <td class='clients7'></td>
+    <td class='clients8'></td>
+    <td class='clients9'></td>
+  </tr>
   <tr>
-    <td class='quovo'></td>
-    <td class='eaglepoint'></td>
-    <td class='missioncontrol'></td>
+    <td class='clients10'></td>
+    <td class='clients11'></td>
+    <td class='clients12'></td>
+  </tr>
   <tr>
-    <td class='zala'></td>
-    <td class='filament'></td>
-    <td class='saa'></td>
+    <td class='clients13'></td>
+    <td class='clients14'></td>
+    <td class='clients15'></td>
+  </tr>
   <tr>
-    <td class='cafe'></td>
-    <td class='vitaminchick'></td>
+    <td class='clients16'></td>
+    <td class='clients17'></td>
+    <td class='clients18'></td>
   </tr>
 </table>
 <div class='footer-container'></div>

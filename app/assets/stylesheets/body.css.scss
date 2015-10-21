@@ -227,7 +227,7 @@ header {
   }
   .show-menu {
     position: absolute;
-    z-index: 1;
+    z-index: 9999;
     left: 0;
     @media(min-width: 800px) {
       display: none;
@@ -365,13 +365,13 @@ footer {
   position: relative;
   background: white;
   @media(max-width: 800px) {
-    padding: 50px 0;
+    padding: 75px 0;
     .left {
       width: 225px;
       margin: auto;
     }
     .social-links {
-      margin: 20px;
+      margin: 50px;
     }
     .legal {
       text-align: center;
@@ -379,6 +379,7 @@ footer {
   }
   @media(min-width: 800px) {
     padding: 100px;
+    padding-bottom: 50px;
     .left {
       float: left;
     }
@@ -397,6 +398,14 @@ footer {
       width: 78px;
       height: 60px;
     }
+    .links {
+      padding-left: 120px;
+      position: relative;
+      bottom: 15px;
+      @media(min-width: 800px) {
+        bottom: 25px;
+      }
+    }
     .links a {
       color: black;
       display: block;
@@ -404,9 +413,11 @@ footer {
       font-size: 12px;
       text-transform: uppercase;
       margin: 5px 0;
-      margin-left: 150px;
       font-weight: bold;
       line-height: 1.8;
+      &:hover {
+        color: #666;
+      }
     }
   }
   .right {
@@ -475,11 +486,18 @@ footer {
   .nav-left, .nav-right {
     top: 50%;
     margin-top: -20px;
+    &:hover {
+      .icon {
+        opacity: 1;
+      }
+    }
   }
   .nav-left .icon, .nav-right .icon {
     width: 9px;
     height: 30px;
     display: inline-block;
+    opacity: 0.5;
+    transition: opacity 0.5s;
   }
   .nav-left {
     left: 10px;
@@ -503,6 +521,11 @@ footer {
   .nav-down {
     bottom: 20px;
     width: 100%;
+    &:hover {
+      .icon {
+        opacity: 1;
+      }
+    }
     .text {
       margin-bottom: 5px;
     }
@@ -511,6 +534,8 @@ footer {
       height: 9px;
       background-image: image-url('down-arrow-white.svg');
       margin: auto;
+      opacity: 0.5;
+      transition: opacity 0.5s;
     }
   }
   .category-page, .project-page {

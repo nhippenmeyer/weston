@@ -15,7 +15,7 @@
         <a href='#work'>Learn More</a>
       </div>
     </div>
-    <div id='page-2' class='page'>
+    <div id='page-2'>
       <a href='#digital'>
         <div class='digital tile' data-route='digital'>
           <div class='overlay'></div>
@@ -57,7 +57,7 @@
       </a>
     </div>
     <div class='text'>
-      <p>We're in Soho!</p>
+      <p>We're in SoHo!</p>
       <a href='#contact'>Get in touch</a>
     </div>
     <div class='map'></div>

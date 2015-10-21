@@ -9,36 +9,42 @@
   <table>
     <tr>
       <td class='digital'>
-        <div class='icon'></div>
-        <h2>Digital</h2>
-        <ul>
-          <li>Website design & development</li>
-          <li>App design & development</li>
-          <li>User experience & user interface design</li>
-          <li>Asset strategy & creation</li>
-        </ul>
-        <a href='#digital'>View Projects</a>
+        <div class='box'>
+          <div class='icon'></div>
+          <h2>Digital</h2>
+          <ul>
+            <li>Website design & development</li>
+            <li>App design & development</li>
+            <li>User experience & user interface design</li>
+            <li>Asset strategy & creation</li>
+          </ul>
+          <a href='#digital'>View Projects</a>
+        </div>
       </td>
       <td class='architecture'>
-        <div class='icon'></div>
-        <h2>Architecture</h2>
-        <ul>
-          <li>Concept & schematic design</li>
-          <li>Interior design</li>
-          <li>Masterplanning</li>
-          <li>Architectural visualization</li>
-        </ul>
-        <a href='#architecture'>View Projects</a>
+        <div class='box'>
+          <div class='icon'></div>
+          <h2>Architecture</h2>
+          <ul>
+            <li>Concept & schematic design</li>
+            <li>Interior design</li>
+            <li>Masterplanning</li>
+            <li>Architectural visualization</li>
+          </ul>
+          <a href='#architecture'>View Projects</a>
+        </div>
       </td>
       <td class='graphic'>
-        <div class='icon'></div>
-        <h2>Graphic</h2>
-        <ul>
-          <li>Graphic design</li>
-          <li>Branding</li>
-          <li>Marketing & advertising</li>
-        </ul>
-        <a href='#graphic'>View Projects</a>
+        <div class='box'>
+          <div class='icon'></div>
+          <h2>Graphic</h2>
+          <ul>
+            <li>Graphic design</li>
+            <li>Branding</li>
+            <li>Marketing & advertising</li>
+          </ul>
+          <a href='#graphic'>View Projects</a>
+        </div>
       </td>
     </tr>
   </table>

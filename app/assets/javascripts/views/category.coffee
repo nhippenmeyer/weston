@@ -45,14 +45,20 @@ class Weston.Views.Category extends Backbone.View
   renderProjects: ->
     index = 0
     for slug, copy of Weston.Data.Projects[@category]
-      $el = $("
-        <div class='single-wide project #{slug}'>
-          <div class='overlay'></div>
-          <div class='text-container'>
-            <h2 class='title'>#{copy.title}</h2>
-            <a href='#projects/#{slug}'>View Project</a>
-          </div>
-        </div>")
+      if $(window).width() > 800
+        $el = $("
+          <div class='single-wide project #{slug}'>
+            <div class='overlay'></div>
+            <div class='text-container'>
+              <h2 class='title'>#{copy.title}</h2>
+              <a href='#projects/#{slug}'>View Project</a>
+            </div>
+          </div>")
+      else
+        $el = $("
+          <a href='#projects/#{slug}''>
+            <div class='single-wide project #{slug}'></div>
+          </a>")
       if index % 2 is 0
         $el.addClass('left')
       else
