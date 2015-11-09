@@ -2,14 +2,16 @@
   <div class='left'>
     <a href='#'>
       <div class='logo'></div>
+      <div class='clear'></div>
     </a>
     <div class='links'>
       <a href='/'>Home</a>
-      <a href='#work'>Work</a>
+      <a href='#digital'>Work</a>
       <a href='#services'>Services</a>
       <a href='#clients'>Clients</a>
       <a href='#contact'>Contact</a>
     </div>
+    <div class='clear'></div>
   </div>
   <div class='right'>
     <div class='social-links'>

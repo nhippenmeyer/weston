@@ -1,3 +1,5 @@
+Backbone.View::footerTemplate = JST['footer']
+
 Backbone.View::renderLeftRightPages = (pageLeftName, pageRightName) ->
   $navLeft = @$('.nav-left')
   $navRight = @$('.nav-right')
@@ -40,3 +42,4 @@ Backbone.View::reRender = ->
 Backbone.View::render = ->
   $('.nav').data('page', '')
   $('.category-header').removeClass('visible')
+  @$('.footer-container').html(@footerTemplate())

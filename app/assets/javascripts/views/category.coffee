@@ -3,7 +3,6 @@ class Weston.Views.Category extends Backbone.View
   className: 'category-page'
 
   layoutTemplate: JST['category']
-  footerTemplate: JST['footer']
   template: -> ""
 
   events:
@@ -17,9 +16,8 @@ class Weston.Views.Category extends Backbone.View
     $(window).resize @resizeImages
 
   render: ->
-    super
     @$el.html(@layoutTemplate(category: @category))
-    @$('.footer-container').html(@footerTemplate())
+    super
     @$('.header h1').html(@name)
     for subheader in @subheaders
       @$('.subheaders').append("<div>#{subheader}</div>")

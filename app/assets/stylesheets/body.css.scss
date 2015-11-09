@@ -91,12 +91,21 @@ li {
 
 #page-layout[data-page='digital'] .category-header .digital a {
   color: white;
+  .icon {
+    background-image: image-url('digital-nav-white.svg');
+  }
 }
 #page-layout[data-page='architecture'] .category-header .architecture a {
   color: white;
+   .icon {
+    background-image: image-url('architecture-nav-white.svg');
+  }
 }
 #page-layout[data-page='graphic'] .category-header .graphic a {
   color: white;
+  .icon {
+    background-image: image-url('graphic-nav-white.svg');
+  }
 }
 
 #page-content, .content {
@@ -128,8 +137,9 @@ li {
   transition: all .5s;
   z-index: 1000;
   position: fixed;
-  background: #18242A;
+  background: black;
   text-transform: uppercase;
+  font-weight: bold;
   .hide-menu {
     font-size: 30px;
     line-height: 30px;
@@ -149,25 +159,7 @@ li {
       a {
         padding: 40px;
         display: block;
-        &:hover {
-          background: #111A20;
-        }
       }
-    }
-    li:nth-child(1) {
-      background: #18242A;
-    }
-    li:nth-child(2) {
-      background: #172227;
-    }
-    li:nth-child(3) {
-      background: #162024;
-    }
-    li:nth-child(4) {
-      background: #151E22;
-    }
-    li:nth-child(5) {
-      background: darken(#151E22, 0.5%);
     }
   }
   .social-media-links {
@@ -308,14 +300,13 @@ header {
       &:hover {
         cursor: pointer;
         color: white;
-        transition: all .25s;
       }
     }
     .digital {
       .icon {
         background-image: image-url('digital-nav.svg');
       }
-      a.selected .icon {
+      &:hover .icon {
         background-image: image-url('digital-nav-white.svg');
       }
     }
@@ -323,7 +314,7 @@ header {
       .icon {
         background-image: image-url('architecture-nav.svg');
       }
-      a.selected .icon {
+      &:hover .icon {
         background-image: image-url('architecture-nav-white.svg');
       }
     }
@@ -331,7 +322,7 @@ header {
       .icon {
         background-image: image-url('graphic-nav.svg');
       }
-      a.selected .icon {
+      &:hover .icon {
         background-image: image-url('graphic-nav-white.svg');
       }
     }
@@ -391,6 +382,9 @@ footer {
     }
   }
   .left {
+    >a {
+      float: left;
+    }
     .logo {
       margin: 10px;
       float: left;
@@ -399,7 +393,8 @@ footer {
       height: 60px;
     }
     .links {
-      padding-left: 120px;
+      float: right;
+      padding-left: 20px;
       position: relative;
       bottom: 15px;
       @media(min-width: 800px) {

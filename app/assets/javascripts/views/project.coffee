@@ -53,8 +53,8 @@ class Weston.Views.Project extends Backbone.View
     "http://s3.amazonaws.com/westonbakerdesign/project-details/#{@getProjectCategory()}/#{@project}"
 
   render: ->
-    super
     @$el.html(@template())
+    super
     @renderLeftRightPages("Previous Project", "Next Project")
     @renderCopy()
     @renderImages()

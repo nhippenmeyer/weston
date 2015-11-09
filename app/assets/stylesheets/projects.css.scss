@@ -6,6 +6,17 @@
     background-size: cover;
     background-position: center center;
   }
+  .nav-left .icon {
+    background-image: image-url('left-arrow-grey.svg');
+  }
+  .nav-right .icon {
+    background-image: image-url('right-arrow-grey.svg');
+  }
+  .nav-left:hover, .nav-right:hover {
+    .text {
+      color: black;
+    }
+  }
   .nav-left .icon, .nav-right .icon {
     position: relative;
   }
@@ -41,27 +52,27 @@
       padding: 10% 15%;
       display: block;
     }
-  }
-  h1 {
-    text-transform: none;
-    font-size: 16px;
-    margin-bottom: 40px;
-    letter-spacing: 2px;
-  }
-  .company, .role, .subtext {
-    font-size: 12px;
-    color: #999;
-    margin: 10px 0;
-  }
-  p, a {
-    font-size: 12px;
-    line-height: 20px;
-    margin: 40px 0;
-    color: #666;
-  }
-  a {
-    margin: 40px 0 20px 0;
-    display: block;
-    font-weight: bold;
+    h1 {
+      text-transform: none;
+      font-size: 16px;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+    }
+    .company, .role, .subtext {
+      font-size: 12px;
+      color: #999;
+      margin: 10px 0;
+    }
+    p, a {
+      font-size: 12px;
+      line-height: 20px;
+      margin: 40px 0;
+      color: #666;
+    }
+    a {
+      margin: 40px 0 20px 0;
+      display: block;
+      font-weight: bold;
+    }
   }
 }
