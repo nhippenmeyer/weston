@@ -39,11 +39,6 @@ Weston.Data.Projects =
       company: "Layerframe"
       role: "Creative Direction"
       photos: [1,2,1,1,2,2]
-    "independent-lodging-congress":
-      title: "Independent Lodging Congress 2014"
-      paragraph: "The Independent Lodging Congress offers participants the opportunity to engage with their industry on a higher level, through dynamic panels, informative breakout sessions, and lively social events offering participants unparalleled access to some of the most important players in the independent lodging sector."
-      link: "http://ilcongress.com/"
-      photos: [1,2,2,1,1]
     "spotify-thatsongwhen":
       title: "Spotify #thatsongwhen"
       paragraph: "Every song has a story. What’s yours? You hear a song, and it takes you to way back when. Spotify #thatsongwhen allows users to connect their memories to songs by writing their story and uploading images or videos to go along with it.<br/><br/>#thatsongwhen you skipped work to go on a road trip with your best friend.<br/>#thatsongwhen you made out in the parking lot and got caught by mall security.<br/>#thatsongwhen you crowd-surfed for the first time."
