@@ -64,6 +64,7 @@ Weston.Data.Projects =
     "emissary":
       title: "Emissary"
       paragraph: "Emissary is an early-stage NYC-based technology startup with one mission: Make it dead-simple to find and connect with the experts you need. The website is designed in flat design with fresh colors and a clean layout. The site is fully responsive, making it easy and interesting to learn about the company. "
+      link: "https://www.emissary.io/"
       photos: [1,1,1,2,2]
   architecture:
     "hybrid-farm-apartment":
