@@ -15,11 +15,11 @@
   </div>
   <div class='right'>
     <div class='social-links'>
-      <a href='https://www.facebook.com/westonbakerdesign' class='facebook'/>
-      <a href='https://twitter.com/westonbaker' class='twitter'/>
-      <a href='https://instagram.com/westonbaker' class='instagram'/>
-      <a href='http://westonbaker.tumblr.com' class='tumblr'/>
-      <a href='https://www.linkedin.com/company/weston-baker-design' class='linkedin'/>
+      <a href='https://www.facebook.com/westonbakercreativegroup' class='facebook' target='_blank'/>
+      <a href='https://twitter.com/westonbaker' class='twitter' target='_blank'/>
+      <a href='https://instagram.com/westonbaker' class='instagram' target='_blank'/>
+      <a href='http://westonbaker.tumblr.com' class='tumblr' target='_blank'/>
+      <a href='https://www.linkedin.com/company/weston-baker-creative-group' class='linkedin' target='_blank'/>
     </div>
     <div class='legal'>
       © 2016 Weston Baker Creative Group LLC
